@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<?php
+			$candidate_id = 400311;
+			$govtrack_photos_url = "http://govtrack.us/data/photos/";
+		?>
 		<link rel="icon" type="image/ico" href="favicon.ico"> 
 		<link rel="stylesheet" href="stats.css" type="text/css" />
 		<title><?php echo "Statistics Page" ?></title>
@@ -8,10 +12,7 @@
 	<body>
 		<header></header>
 		<h1>
-			<?php
-			$candidate_id = 400311;
-			?>
-			<img src="http://govtrack.us/data/photos/<?php echo $candidate_id; ?>.jpeg" alt = "Ron Paul's face" />
+			<img src="<?php echo $govtrack_photos_url . $candidate_id; ?>.jpeg" alt = "Ron Paul's face" />
 			<?php 
 			$con = mysql_connect("localhost","root","");
 			if(!$con)
