@@ -1,0 +1,43 @@
+body
+{
+	background-color:#550000;
+}
+
+#info
+{
+	background-color:#DDDDDD;
+	width:800px;
+	margin:40px 10px 40px 55px;
+}
+
+
+tr
+{
+	width:inherit;
+	height:300px;
+}
+td
+{
+	margin:30px;
+	padding:30px;
+	width:50%;
+	height:inherit;
+	overflow: hidden;
+	
+}
+
+td img
+{
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border:#999999 solid;
+}
+
+div.desc
+{
+	padding: 10px;
+	display: block;
+	border: #D3D3D3 solid;
+	background-color:#E6E6E6;
+}
