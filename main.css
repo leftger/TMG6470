@@ -1,29 +1,23 @@
 body{
 	/*background: #faf8cc;*/
-	background: #eeeeee ;
+	background: #150517;
 }
-div{
-	
-}
-div.nav_bar{
-	
-}
+#line{position: absolute; top: 108px; left: 1px;}
 li{font-family: Impact, Charcoal, sans-serif; font-size: 20px}
-#large_box{position: absolute;left: 75px;top: 45px;height: 1000px;width: 1200px;padding: 0px;background: #cccccc;box-shadow: 3px 3px 5px black;border-radius: 10px;-webkit-border-radius: 10 px;}
-#wrapper{height: 175px;background: #800517;-webkit-border-top-left-radius:10px;-webkit-border-top-right-radius:10px;}
-#logo_box{height: 200px;width: 300px;position: absolute;top: -40px;left: 60px;}
-
+#large_box{position: absolute;left: 25px; top:35px; height:1000px; width: 97%;padding: 0px;background: #cccccc;box-shadow: 3px 3px 5px black;border-radius: 10px;-webkit-border-radius: 10 px;}
+#header{height: 175px;background: white; -webkit-border-top-left-radius:10px;-webkit-border-top-right-radius:10px;}
+#smallheader{height: 120px; width: 1108px; position: absolute; top: 0px;left: 200px; background: #CD0A0A; -webkit-border-top-right-radius:10px}
+#logo_box{height: 200px; width: 300px;position: absolute; top: -137px;left: -90px;}
+#flag_box{position: absolute; top: 174px;}
 
 #navigation_bar {padding: 7.5px; width: 575px;height: 30px;position:absolute;top:-15px;right:50px;border-radius: 5px;background-color: #444444;box-shadow: 3px 3px 5px black;-moz-border-radius: 5px; -webkit-border-radius: 5 px;float: none;}
-#navigation_bar ul { padding: 2px; height: 10px;list-style-type: none; text-align: center;background-color: #444444; position:absolute; right:30px;top:-7.5px;}
+#navigation_bar ul {padding: 2px; height: 10px;list-style-type: none; word-spacing: 6px; white-space: nowrap; text-align: center;background-color: #444444; position:absolute; right:30px;top:-7.5px;}
 #navigation_bar ul li {display: inline; float: left;}
-#navigation_bar ul li a { text-decoration: none; padding:8px 15px; color: #FFFFFF;} 
+#navigation_bar ul li a {text-decoration: none; padding:8px 15px; color: #FFFFFF;} 
 #navigation_bar ul li a:hover {color: #FF0000;}
 #navigation_bar ul li ul{display: none;}
 #navigation_bar ul li form{display: none;}
-#navigation_bar ul li:hover ul{display: block; position: inherit; height: 175px;width: 165px; box-shadow: 3px 3px 5px black;border-radius: 5px;-webkit-border-radius: 5 px;}
+#navigation_bar ul li:hover ul{display: block; position: inherit; height: 135px;width: 165px; box-shadow: 3px 3px 5px black;border-radius: 5px;-webkit-border-radius: 5 px;}
 #navigation_bar ul li:hover form{display: block;position: absolute; background color: #444444; top:35px; right: -60px;color:#FFFFFF;height: 100px;width: 300px; box-shadow: 3px 3px 5px black;border-radius: 5px;-webkit-border-radius: 5 px;}
-/*
-#navigation_bar ul li ul li{display: block;text-align: left;padding: 10px;}
-#navigation_bar ul li ul li:hover a{color: #FF0000;padding: 0px;}
-*/
+
+
