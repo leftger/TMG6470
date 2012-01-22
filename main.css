@@ -11,7 +11,7 @@ li{font-family: Impact, Charcoal, sans-serif; font-size: 20px}
 #flag_box{position: absolute; top: 174px;}
 
 #navigation_bar {padding: 7.5px; width: 575px;height: 30px;position:absolute;top:-15px;right:50px;border-radius: 5px;background-color: #444444;box-shadow: 3px 3px 5px black;-moz-border-radius: 5px; -webkit-border-radius: 5 px;float: none;}
-#navigation_bar ul {padding: 2px; height: 10px;list-style-type: none; word-spacing: 6px; white-space: nowrap; text-align: center;background-color: #444444; position:absolute; right:30px;top:-7.5px;}
+#navigation_bar ul {padding: 2px; height: 10px;list-style-type: none; word-spacing: 6px; white-space: nowrap; text-align: center;background:transparent url("../images/mainMenu-repeat.png") repeat-x 0 0; position:absolute; right:30px;top:-7.5px;}
 #navigation_bar ul li {display: inline; float: left;}
 #navigation_bar ul li a {text-decoration: none; padding:8px 15px; color: #FFFFFF;} 
 #navigation_bar ul li a:hover {color: #FF0000;}
