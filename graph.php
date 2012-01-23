@@ -9,20 +9,23 @@ $link = mysql_connect('18.194.1.88:3306', 'TMG6470', 'snett')
 mysql_select_db('candidates_2012') or die('Could not select database');
   
 $dataArray=array();
-$count=0; 
+$candidate=$_GET['user'];
+
+//$candidate=$_POST[value];
 //get data from database
-$sql="SELECT Gingrich,Date FROM gallup_poptime";
+$sql="SELECT $candidate,Date FROM gallup_poptime";
 //$dates="SELECT Date FROM gallup_poptime";
+
 $result = mysql_query($sql) or die('Query failed: ' . mysql_error());
 //$result2 = mysql_query($dates) or die('Query failed: ' . mysql_error());
+
 if ($result) {
   while ($row = mysql_fetch_assoc($result)) {
-      $salesgroup=$row["Gingrich"];
+      $salesgroup=$row["$candidate"];
       $dates=$row["Date"];
       //$date=$result2[$count];
       //add to data array
       $dataArray[$dates]=$salesgroup;
-	  $count++;
   }
 }
 
