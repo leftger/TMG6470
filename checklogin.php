@@ -1,8 +1,8 @@
 <?php
 ob_start();
-$host="localhost"; // Host name 
-$username="root"; // Mysql username 
-$password=""; // Mysql password 
+$host="18.194.1.88:3306"; // Host name 
+$username="TMG6470"; // Mysql username 
+$password="snett"; // Mysql password 
 $db_name="candidates_2012"; // Database name 
 $tbl_name="login"; // Table name
 
