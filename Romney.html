@@ -1,43 +1,29 @@
-<?php
-session_start();
-if(!isset($_SESSION['myusername'])){
-header("location:index.html");
-}
-?>
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>TMG6470</title>
-		<link rel = "stylesheet" type="text/css" href=" main.css" >
-		<script type="text/javascript" src="jquery/js/jquery-1.7.1.min.js"></script>
-		<script type="text/javascript" src="SlideAction.js"></script>
-		<link rel = "stylesheet" type="text/css" href="Slidecss.css">
+		<title>Candidate Page</title>
+		<link rel = "stylesheet" type="text/css" href="CandidatePage.css">
+		<link rel = "stylesheet" type="text/css" href="main.css">
 	</head>
 	<body>
 		<div id="large_box">
-		<div id="flag_box">
-		<img src="us flag.png" alt="flag" width="1308px" height="525">
-		</div>
-		<div id="header">
 		<div id="smallheader">
 		<div id="line">
 		<div id="logo_box">
 		<img src= "logotransparent.png" alt="donkey V Elephant" width="300px" height="215px" >
 		</div>
-		
 		<img src="blackline.png" alt="line" width="1110px" height="4px">
 		</div>
 		<div id="navigation_bar" >
 			<ul>
 				<li id="home" class="nav_bar">
-			 		<a href="http://17.0.0.1:8020/TMG6470/index.html">Home</a>
+			 		<a href="index.html">Home</a>
 			 		|
 			 	</li>
 			 	<li id="statistics" class="nav_bar">
 			 		<a href="http://en.wikipedia.org/wiki/Statistics">Statistics</a>
 			 			 |
 			 		<ul>
-			 			
 			 			<li><a href="http://en.wikipedia.org/wiki/Timeline" class="Stats_bar">Timeline</a></li>
 			 			<li><a href="http://en.wikipedia.org/wiki/Newt_Gingrich" class="Stats_bar">Districts leading</a></li>
 			 			<li><a href="http://en.wikipedia.org/wiki/Ron_paul" class="Stats_bar">Bills created</a></li>
@@ -71,71 +57,57 @@ header("location:index.html");
 			 		
 			 		<a href="">Login</a>
 			 		<div id='login_box'></div>
-			 		<form action="checklogin.php" method="post">
-						Username: <input type="text" name="myusername"> </input><br />
-						Password: <input type="password" name="mypassword"> </input><br />
+			 		<form action="main.php" method="post">
+						Username: <input type="text" name="username"> </input><br />
+						Password: <input type="password" name="password"> </input><br />
 						<input type="submit" />
 					</form>
-			 	</li id= "logout_button">
-			 		<FORM>
-						<INPUT TYPE="BUTTON" VALUE="Logout" ONCLICK="window.location.href='logout.php'"> 
-					</FORM>
 			 	</li>
 			</ul>
 		</div>
+			<div id="info_box">
+			<div id="info">
+			<table border="0">
+				<tr>
+					<td>
+						<img src="CandidatePics/romney400.jpg" alt="Mitt Romney"   />
+					</td>
+					
+					<td>
+						<div class="desc">
+							&quot;A mere forty years ago, beach volleyball was just beginning. No bureaucrat would have invented it, and that's what freedom is all about.&quot;
+						</div>
+						<br />
+						<div class="desc">
+							&quot;An energy tax punishes senior citizens, it punishes rural Americans, if you use electricity it punishes you. This bill will increase your cost of living and may kill your job.&quot;
+						</div>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<h4>A Short Biography</h4>
+						<div class="desc">
+							Born in Harrisburg, Pennsylvania, Newt's experiences as the son of a career soldier convinced him at an early age to dedicate his life to his country and to the protection of freedom. Realizing the importance of understanding the past in order to protect the future, he immersed himself in the study of history, receiving his Bachelor�s degree from Emory University and Master�s and Doctorate in Modern European History from Tulane University. Before his election to Congress in 1978, Newt taught History and Environmental Studies at West Georgia College for eight years. He represented Georgia in Congress for twenty years, including four years as Speaker of the House.
+						</div>
+					</td>
+					
+					<td>
+						<h4>Recent Activities</h4>
+						<div class="desc">
+							In 2003, Newt founded the Center for Health Transformation to develop free market healthcare reforms to foster a 21st Century System of health and healthcare that is centered on the individual, prevention focused, knowledge intense and innovation rich.  Newt also served as the Co-Chairman of the National Commission for Quality Long-term Care and the independent congressional Alzheimer�s Disease Study Group. 
+						</div>
+					</td>
+				</tr>
+				
+				<tr>
+					<td colspan="2">
+						CCCCCCCCCOOOOOOOOOLLLLLLLLLLL
+					</td>
+				</tr>
+			</table>
 		</div>
 		</div>
-		<p>
-			<?php
-			if (isset($_SESSION['myusername']))
-			{
-				echo "WELCOME: " . $_SESSION['myusername'] . "!";
-			}
-			else{
-				echo "Please log in :)";
-			}
-			?>
-		</p>
-		<ul id="accordion">
-			<li>
-				<a href="candidate.php?id=404587">
-  				<img src="CandidatePics/gingrich400.jpg" alt="Newt Gingrich"   />
-  				</a>
-  				<div class="desc">Newt Gingrich</div>
-			</li>
-			
-			<li>
-				<a href="candidate.php?id=408649">
-  				<img src="CandidatePics/rick-perry.jpg" alt="Rick Perry"  />
-  				</a>
-  				<div class="desc">Rick Perry</div>
-  				
-			</li>
-			<li>
-				<a href="candidate.php?id=400311">
- 			 	<img src="CandidatePics/RonPaul.jpg" alt="Ron Paul"   />
- 		 		</a>
- 		 		<div class="desc">Ron Paul</div>	
-			</li>
-			<li>
-				<a href="candidate.php?id=300085">
-  				<img src="CandidatePics/Santorum400.jpg" alt="Rick Santorum"  />
-  				</a>
-  				<div class="desc">Rick Santorum</div>	
-			</li>
-			<li>
-				<a href="http://www.google.com">
- 				<img src="CandidatePics/romney400.jpg" alt="Mitt Romney"  />
-				</a>
-				<div class="desc">Mitt Romney</div>	
-			</li>
-			<li>
-				<a href="candidate.php?id=400629">
-  				<img src="CandidatePics/Obama.jpg" alt="Barack Obama" /> <!--width=400px-->
-  				</a>
-  				<div class="desc">Barack Obama</div>
-			</li>
-		</ul>
-	</div>
 	</body>
+	
 </html>

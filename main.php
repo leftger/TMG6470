@@ -1,14 +1,16 @@
 <?php
 session_start();
 print_r($_SESSION);
-$_SESSION['test'] = 'hi';
+
+$table_name = "login";
+include "database.php";
 
 if (isset($_POST['username'])) {
 	require 'database.php';
 	$username = htmlspecialchars($_POST['username']);
 	$password = htmlspecialchars($_POST['password']);
 	$password = sha1($password);
-	$query = "SELECT COUNT(*) FROM users WHERE username='$username'";
+	$query = "SELECT COUNT(*) FROM '$table_name' WHERE username='$username'";
 	$result = mysql_query($query) or die('bad query');
 
 	if ($result) {

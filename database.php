@@ -1,5 +1,5 @@
 <?php
-$host = '18.194.1.84:3306';
+$host = '18.194.1.233';
 $username = 'root';
 $password = '';
 $db = mysql_connect($host, $username, $password) or die('Could not connect: ' . mysql_error());
