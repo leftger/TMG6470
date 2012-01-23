@@ -1,8 +1,8 @@
 <?php
 ob_start();
-$host="localhost"; // Host name 
-$username="root"; // Mysql username 
-$password=""; // Mysql password 
+$host="18.194.1.88:3306"; // Host name 
+$username="TMG6470"; // Mysql username 
+$password="snett"; // Mysql password 
 $db_name="candidates_2012"; // Database name 
 $tbl_name="login"; // Table name
 
@@ -31,7 +31,7 @@ if($count==1){
 // Register $myusername, $mypassword and redirect to file "login_success.php"
 session_register("myusername");
 session_register("mypassword"); 
-header("location:login_success.php");
+header("location:index.php");
 }
 else {
 echo "Wrong Username or Password";

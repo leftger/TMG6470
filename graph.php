@@ -9,7 +9,6 @@ $link = mysql_connect('18.194.1.88:3306', 'TMG6470', 'snett')
 mysql_select_db('candidates_2012') or die('Could not select database');
   
 $dataArray=array();
-$count=0; 
 //get data from database
 $sql="SELECT Gingrich,Date FROM gallup_poptime";
 //$dates="SELECT Date FROM gallup_poptime";
@@ -22,7 +21,6 @@ if ($result) {
       //$date=$result2[$count];
       //add to data array
       $dataArray[$dates]=$salesgroup;
-	  $count++;
   }
 }
 
@@ -38,4 +36,5 @@ $graph->setDataValueColor('maroon');
 $graph->setGoalLine(.0025);
 $graph->setGoalLineColor('red');
 $graph->createGraph();
+echo "gay";
 ?>
