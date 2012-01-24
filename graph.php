@@ -2,6 +2,7 @@
 
 
 $candidate=$_GET['user'];
+//$candidate="Romney";
 if(($candidate=="Romney")||($candidate=="Paul")||($candidate=="Santorum")||($candidate=="Gingrich")) {
 	
 
