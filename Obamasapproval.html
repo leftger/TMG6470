@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<title></title>
+		<title></title>
 	<link rel = "stylesheet" type="text/css" href=" main.css" >
 	</head>
 	<body>
@@ -58,36 +58,16 @@
 			 	<li id="login" class="nav_bar>">
 			 		
 			 		<a href="">Login</a>
-			 		<div id='login_box'></div>
-			 		<form action="checklogin.php" method="post">
-						Username: <input type="text" name="myusername"> </input><br />
-						Password: <input type="password" name="mypassword"> </input><br />
-						<input type="submit" />
-						<?php
-						$logged_in="";
-						if(isset($_SESSION['myusername'])){
-							$logged_in = "<INPUT TYPE=\"BUTTON\" VALUE=\"Logout\"ONCLICK=\"window.location.href=\"logout.php\">";
-						echo $logged_in;
-						}?>
+			 		<div id='login_box'>
+			 		<form action="main.php" method="post">
+						Username: <input type="text" name="username"> </input><br />
+						Password: <input type="password" name="password"> </input><br />
+						<input type="submit"/>
 					</form>
+					</div>
+			 	</li>
 			</ul>
 		</div>
 		</div>
-		</div>
-		<p>
-			<?php
-			if (isset($_SESSION['myusername']))
-			{
-				echo "WELCOME: " . $_SESSION['myusername'] . "!";
-			}
-			else{
-				echo "Please log in :)";
-			}
-			?>
-		</p>
-		<div id="graphbox">
-		<img src = "obamagraph.php" position="absolute" left="200px">
-		</div>
 </body>
 </html>
-
