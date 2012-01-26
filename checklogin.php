@@ -1,5 +1,20 @@
 <?php
 ob_start();
+//reCaptcha stuff, don't need it here :)
+/*  require_once('recaptchalib.php');
+  $privatekey = "6LfB17oSAAAAAA8uDTC6pG_eAMxmAK1m1DjofUft";
+  $resp = recaptcha_check_answer ($privatekey,
+                                $_SERVER["REMOTE_ADDR"],
+                                $_POST["recaptcha_challenge_field"],
+                                $_POST["recaptcha_response_field"]);
+
+if (!$resp->is_valid) {
+// What happens when the CAPTCHA was entered incorrectly
+  die ("The reCAPTCHA wasn't entered correctly. Go back and try it again." .
+       "(reCAPTCHA said: " . $resp->error . ")");
+}
+else {*/
+// Your code here to handle a successful verification
 $host="18.194.1.88:3306"; // Host name 
 $username="TMG6470"; // Mysql username 
 $password="snett"; // Mysql password 
@@ -36,6 +51,7 @@ header("location:index.php");
 else {
 echo "Wrong Username or Password";
 }
-
+//this was for reCaptcha
+//}
 ob_end_flush();
 ?>

@@ -1,8 +1,5 @@
 <?php
 session_start();
-if(!isset($_SESSION['myusername'])){
-header("location:index.html");
-}
 ?>
 <!DOCTYPE html>
 <html>
@@ -30,7 +27,7 @@ header("location:index.html");
 		<div id="navigation_bar" >
 			<ul>
 				<li id="home" class="nav_bar">
-			 		<a href="http://17.0.0.1:8020/TMG6470/index.html">Home</a>
+			 		<a href="index.php">Home</a>
 			 		|
 			 	</li>
 			 	<li id="statistics" class="nav_bar">
@@ -72,15 +69,25 @@ header("location:index.html");
 			 		<a href="">Login</a>
 			 		<div id='login_box'></div>
 			 		<form action="checklogin.php" method="post">
+			 			<?php
+			 			// This was for reCaptcha -- don't need it here :)
+			 			/*require_once('recaptchalib.php');
+  						$publickey = "6LfB17oSAAAAADzAJWHF6CiqcDb6zRwc0ciTWzBP"; // you got this from the signup page
+  						echo recaptcha_get_html($publickey) . "<br />";*/
+  						?>
 						Username: <input type="text" name="myusername"> </input><br />
 						Password: <input type="password" name="mypassword"> </input><br />
 						<input type="submit" />
 					</form>
-			 	</li id= "logout_button">
+				<?php
+				if(isset($_SESSION['myusername'])){
+					echo "</li id= \"logout_button\">
 			 		<FORM>
-						<INPUT TYPE="BUTTON" VALUE="Logout" ONCLICK="window.location.href='logout.php'"> 
+						<INPUT TYPE=\"BUTTON\" VALUE=\"Logout\" ONCLICK=\"window.location.href='logout.php'\"> 
 					</FORM>
-			 	</li>
+			 	</li>";
+				}
+				?>
 			</ul>
 		</div>
 		</div>
@@ -92,7 +99,7 @@ header("location:index.html");
 				echo "WELCOME: " . $_SESSION['myusername'] . "!";
 			}
 			else{
-				echo "Please log in :)";
+				echo "Boys in the BATTLE >:O";
 			}
 			?>
 		</p>
