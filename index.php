@@ -14,28 +14,55 @@ header("location:index.html");
 		<link rel = "stylesheet" type="text/css" href="Slidecss.css">
 	</head>
 	<body>
-		<div id="large_box">
-		<div id="flag_box">
-		<img src="us flag.png" alt="flag" width="1308px" height="525">
-		</div>
-		<div id="header">
+		<!--<div id='login_box'></div>
+			 		<form action="checklogin.php" method="post">
+						Username: <input type="text" name="myusername"> </input><br />
+						Password: <input type="password" name="mypassword"> </input><br />
+						<input type="submit" />
+					<?php
+						$logged_in="";
+						if(isset($_SESSION['myusername'])){
+							$logged_in = "<INPUT TYPE=\"BUTTON\" VALUE=\"Logout\"ONCLICK=window.location.href=\"logout.php\">";
+						echo $logged_in;
+						}?> 
+					</form>-->
 		<div id="smallheader">
-		<div id="line">
-		<div id="logo_box">
-		<img src= "logotransparent.png" alt="donkey V Elephant" width="300px" height="215px" >
+		<div id="login" class="nav_right">
+		<a href="">Login | Logout</a>
+			 		<div id='login_box'>
+			 		<form action="checklogin.php" method="post">
+						Username: <input type="text" name="myusername"> </input><br />
+						Password: <input type="password" name="mypassword"> </input><br />
+						<input type="submit" />
+					</form>
+					</div>
 		</div>
-		
-		<img src="blackline.png" alt="line" width="1110px" height="4px">
+		<div id="welcome">
+			<?php
+			if (isset($_SESSION['myusername']))
+			{
+				echo "Welcome, " . $_SESSION['myusername'] . "";
+			}
+			else{
+				echo "Please log in :)";
+			}
+			?>
+		</div>
+		<div id="line">
+		<img src="redline.png" alt="line" width="1110px" height="4px">
 		</div>
 		<div id="navigation_bar" >
-			<ul>
+			<div id="logo_box">
+		<img src= "logotransparent.png" alt="donkey V Elephant" width="175px" height="125px" >
+		</div>
+			<ul class="nav_bar">
 				<li id="home" class="nav_bar">
-			 		<a href="http://17.0.0.1:8020/TMG6470/index.html">Home</a>
-			 		|
+			 		<a href="index.html">Home</a>
+			 		
 			 	</li>
 			 	<li id="statistics" class="nav_bar">
 			 		<a href="graphTest.html">Statistics</a>
-			 			 |
+			 			 
 			 		<ul>
 			 			
 			 			<li><a href="http://en.wikipedia.org/wiki/Timeline" class="Stats_bar">Timeline</a></li>
@@ -47,7 +74,7 @@ header("location:index.html");
 			 	</li>
 			 	<li id="issues" class="nav_bar">
 			 		<a href="">Issues</a>
-			 		|
+			 		
 			 		<ul>
 			 			<li><a href="http://en.wikipedia.org/wiki/Economy" class="issues_bar">Economy</a></li>
 			 			<li><a href="http://en.wikipedia.org/wiki/The_War" class="issues_bar">The War</a></li>
@@ -58,7 +85,7 @@ header("location:index.html");
 			 	</li>
 			 	<li id="candidates" class="nav_bar">
 			 		<a href="">Candidates</a>
-			 		|
+			 		
 			 		<ul>
 			 			<li><a href="http://en.wikipedia.org/wiki/Barack_Obama" class="candidates_bar">Barack Obama</a></li>
 			 			<li><a href="http://en.wikipedia.org/wiki/Newt_Gingrich" class="candidates_bar">Newt Gingrich</a></li>
@@ -66,36 +93,39 @@ header("location:index.html");
 			 			<li><a href="http://en.wikipedia.org/wiki/Rick_Santorum" class="candidates_bar">Rick Santorum</a></li>
 			 			<li><a href="http://en.wikipedia.org/wiki/Mitt_Romney" class="candidates_bar">Mitt Romney</a></li>
 			 		</ul>
-			 	</li>
-			 	<li id="login" class="nav_bar>">
+			 	</ul>
+			 	<ul class="nav_right">
+			 	<!--</li>
+			 	<li id="login" class="nav_right">
 			 		
-			 		<a href="">Login</a>
+			 		<a href="">Login/Logout</a>
 			 		<div id='login_box'></div>
 			 		<form action="checklogin.php" method="post">
 						Username: <input type="text" name="myusername"> </input><br />
 						Password: <input type="password" name="mypassword"> </input><br />
 						<input type="submit" />
+					<?php
+						$logged_in="";
+						if(isset($_SESSION['myusername'])){
+							$logged_in = "<INPUT TYPE=\"BUTTON\" VALUE=\"Logout\"ONCLICK=window.location.href=\"logout.php\">";
+						echo $logged_in;
+						}?> 
 					</form>
-			 	</li id= "logout_button">
-			 		<FORM>
-						<INPUT TYPE="BUTTON" VALUE="Logout" ONCLICK="window.location.href='logout.php'"> 
-					</FORM>
+			 	</li>-->
+			 	<li id="Signin" class="nav_right">
+			 	<a href="signinpage.php">Signin</a>
 			 	</li>
 			</ul>
 		</div>
 		</div>
+		<div id="large_box">
+		<div id="flag_box">
+		<img src="us flag.png" alt="flag" width="100%" height="100%">
 		</div>
-		<p>
-			<?php
-			if (isset($_SESSION['myusername']))
-			{
-				echo "WELCOME: " . $_SESSION['myusername'] . "!";
-			}
-			else{
-				echo "Please log in :)";
-			}
-			?>
-		</p>
+		<div id="title_wrap">
+		<p>Boys in the BATTLE >:O</p>
+		</div>
+		<div id="accordian_box">
 		<ul id="accordion">
 			<li>
 				<a href="http://www.google.com">
@@ -130,12 +160,13 @@ header("location:index.html");
 				<div class="desc">Mitt Romney</div>	
 			</li>
 			<li>
-				<a href="http://www.google.com">
+				<a href="Obamasapproval.php">
   				<img src="CandidatePics/Obama.jpg" alt="Barack Obama" /> <!--width=400px-->
   				</a>
   				<div class="desc">Barack Obama</div>
 			</li>
 		</ul>
+	</div>
 	</div>
 	</body>
 </html>
