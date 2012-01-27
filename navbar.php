@@ -1,6 +1,4 @@
-<?php
-session_start();
-?>
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -25,7 +23,10 @@ session_start();
 					</form>-->
 		<div id="smallheader">
 		<div id="login" class="nav_right">
-		<a href="">Login | Logout</a>
+		<a href=""><?php
+			if (isset($_SESSION['myusername'])){echo "Logout";}
+			else{echo "Login";}
+			?></a>
 			 		<div id='login_box'>
 			 		<form action="checklogin.php" method="post">
 						Username: <input type="text" name="myusername"> </input><br />
@@ -34,19 +35,14 @@ session_start();
 					</form>
 					</div>
 		</div>
+		<div id="line">
 		<div id="welcome">
 			<?php
-			if (isset($_SESSION['myusername']))
-			{
-				echo "Welcome, " . $_SESSION['myusername'] . "";
-			}
-			else{
-				echo "Please log in :)";
-			}
+			if (isset($_SESSION['myusername'])){echo "Welcome, " . $_SESSION['myusername'] . "";}
+			else{echo "Please log in :)";}
 			?>
 		</div>
-		<div id="line">
-		<img src="redline.png" alt="line" width="1110px" height="4px">
+		<img src="redline.png" alt="line" width="100%" height="4px">
 		</div>
 		<div id="navigation_bar" >
 			<div id="logo_box">
@@ -54,7 +50,8 @@ session_start();
 		</div>
 			<ul class="nav_bar">
 				<li id="home" class="nav_bar">
-			 		<a href="index.php">Home</a>
+			 		<a href="index.html">Home</a>
+			 		
 			 	</li>
 			 	<li id="statistics" class="nav_bar">
 			 		<a href="graphTest.html">Statistics</a>
@@ -107,15 +104,6 @@ session_start();
 						echo $logged_in;
 						}?> 
 					</form>
-					<?php
-					if (isset($_SESSION['myusername'])){
-						echo "</li id= \"logout_button\">
-			 				<FORM>
-								<INPUT TYPE=\"BUTTON\" VALUE=\"Logout\" ONCLICK=\"window.location.href='logout.php'\"> 
-							</FORM>
-			 				</li>";
-					}
-					?>
 			 	</li>-->
 			 	<li id="Signin" class="nav_right">
 			 	<a href="signinpage.php">Signin</a>
@@ -123,56 +111,3 @@ session_start();
 			</ul>
 		</div>
 		</div>
-		<div id="large_box">
-		<div id="flag_box">
-		<img src="us flag.png" alt="flag" width="100%" height="100%">
-		</div>
-
-		<div id="title_wrap">
-		<p>Boys in the BATTLE >:O</p>
-		</div>
-		<div id="accordian_box">
-		<ul id="accordion">
-			<li>
-				<a href="http://www.google.com">
-  				<img src="CandidatePics/gingrich400.jpg" alt="Newt Gingrich"   />
-  				</a>
-  				<div class="desc">Newt Gingrich</div>
-			</li>
-			
-			<li>
-				<a href="http://www.google.com">
-  				<img src="CandidatePics/rick-perry.jpg" alt="Rick Perry"  />
-  				</a>
-  				<div class="desc">Rick Perry</div>
-  				
-			</li>
-			<li>
-				<a href="http://www.google.com">
- 			 	<img src="CandidatePics/RonPaul.jpg" alt="Ron Paul"   />
- 		 		</a>
- 		 		<div class="desc">Ron Paul</div>	
-			</li>
-			<li>
-				<a href="http://www.google.com">
-  				<img src="CandidatePics/Santorum400.jpg" alt="Rick Santorum"  />
-  				</a>
-  				<div class="desc">Rick Santorum</div>	
-			</li>
-			<li>
-				<a href="http://www.google.com">
- 				<img src="CandidatePics/romney400.jpg" alt="Mitt Romney"  />
-				</a>
-				<div class="desc">Mitt Romney</div>	
-			</li>
-			<li>
-				<a href="Obamasapproval.php">
-  				<img src="CandidatePics/Obama.jpg" alt="Barack Obama" /> <!--width=400px-->
-  				</a>
-  				<div class="desc">Barack Obama</div>
-			</li>
-		</ul>
-	</div>
-	</div>
-	</body>
-</html>
