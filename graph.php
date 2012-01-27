@@ -5,6 +5,8 @@
 //$candidate="Romney";
 $candidate= $_POST['vehicle'];
 //if(($candidate=="Romney")||($candidate=="Paul")||($candidate=="Santorum")||($candidate=="Gingrich")) {
+
+
 include("phpgraphlib.php");
 $graph=new PHPGraphLib(550,350);
 $link = mysql_connect('18.194.1.88:3306', 'TMG6470', 'snett')
@@ -17,6 +19,7 @@ for($i=0;$i<count($candidate); $i++) {
 $data.$i=array();
 
 //$candidate=$_POST[value];
+
 //get data from database
 $sql="SELECT $candidate[$i],Date FROM gallup_poptime";
 //$dates="SELECT Date FROM gallup_poptime";

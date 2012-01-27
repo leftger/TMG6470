@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -13,11 +14,19 @@
 						Username: <input type="text" name="myusername"> </input><br />
 						Password: <input type="password" name="mypassword"> </input><br />
 						<input type="submit" />
-					</form>
-		</div>-->
+					<?php
+						$logged_in="";
+						if(isset($_SESSION['myusername'])){
+							$logged_in = "<INPUT TYPE=\"BUTTON\" VALUE=\"Logout\"ONCLICK=window.location.href=\"logout.php\">";
+						echo $logged_in;
+						}?> 
+					</form>-->
 		<div id="smallheader">
 		<div id="login" class="nav_right">
-		<a href="">Login | Logout</a>
+		<a href=""><?php
+			if (isset($_SESSION['myusername'])){echo "Logout";}
+			else{echo "Login";}
+			?></a>
 			 		<div id='login_box'>
 			 		<form action="checklogin.php" method="post">
 						Username: <input type="text" name="myusername"> </input><br />
@@ -27,10 +36,16 @@
 					</div>
 		</div>
 		<div id="line">
-		<img src="redline.png" alt="line" width="100%" height="3px">
+		<div id="welcome">
+			<?php
+			if (isset($_SESSION['myusername'])){echo "Welcome, " . $_SESSION['myusername'] . "";}
+			else{echo "Please log in :)";}
+			?>
+		</div>
+		<img src="redline.png" alt="line" width="100%" height="4px">
 		</div>
 		<div id="navigation_bar" >
-		<div id="logo_box">
+			<div id="logo_box">
 		<img src= "logotransparent.png" alt="donkey V Elephant" width="175px" height="125px" >
 		</div>
 			<ul class="nav_bar">
@@ -65,79 +80,34 @@
 			 		<a href="">Candidates</a>
 			 		
 			 		<ul>
-			 			<li><a href="Obamasapproval.php" class="candidates_bar">Barack Obama</a></li>
+			 			<li><a href="http://en.wikipedia.org/wiki/Barack_Obama" class="candidates_bar">Barack Obama</a></li>
 			 			<li><a href="http://en.wikipedia.org/wiki/Newt_Gingrich" class="candidates_bar">Newt Gingrich</a></li>
 			 			<li><a href="http://en.wikipedia.org/wiki/Ron_paul" class="candidates_bar">Ron Paul</a></li>
 			 			<li><a href="http://en.wikipedia.org/wiki/Rick_Santorum" class="candidates_bar">Rick Santorum</a></li>
-			 			<li><a href="Romney.html" class="candidates_bar">Mitt Romney</a></li>
+			 			<li><a href="http://en.wikipedia.org/wiki/Mitt_Romney" class="candidates_bar">Mitt Romney</a></li>
 			 		</ul>
 			 	</ul>
 			 	<ul class="nav_right">
 			 	<!--</li>
 			 	<li id="login" class="nav_right">
-			 		<a href="">Login | Logout</a>
 			 		
+			 		<a href="">Login/Logout</a>
 			 		<div id='login_box'></div>
 			 		<form action="checklogin.php" method="post">
 						Username: <input type="text" name="myusername"> </input><br />
 						Password: <input type="password" name="mypassword"> </input><br />
 						<input type="submit" />
+					<?php
+						$logged_in="";
+						if(isset($_SESSION['myusername'])){
+							$logged_in = "<INPUT TYPE=\"BUTTON\" VALUE=\"Logout\"ONCLICK=window.location.href=\"logout.php\">";
+						echo $logged_in;
+						}?> 
 					</form>
 			 	</li>-->
 			 	<li id="Signin" class="nav_right">
-			 	<a href="signingpage.php">Signup</a>
+			 	<a href="signinpage.php">Signin</a>
 			 	</li>
 			</ul>
 		</div>
 		</div>
-		<div id="large_box">
-		<div id="flag_box">
-		<img src="us flag.png" alt="flag" width="100%" height="60%">
-		</div>
-		<div id="title_wrap"> 
-		<p>Boys in the BATTLE >:O</p>
-		</div>
-		<div id="accordian_box">
-		<ul id="accordion">
-			<li>
-				<a href="http://www.google.com">
-  				<img src="CandidatePics/gingrich400.jpg" alt="Newt Gingrich"   />
-  				</a>
-  				<div class="desc">Newt Gingrich</div>	
-			</li>
-			
-			<li>
-				<a href="http://www.google.com">
-  				<img src="CandidatePics/rick-perry.jpg" alt="Rick Perry"  />
-  				</a>
-  				<div class="desc">Rick Perry</div>	
-			</li>
-			<li>
-				<a href="http://www.google.com">
- 			 	<img src="CandidatePics/RonPaul.jpg" alt="Ron Paul"   />
- 		 		</a>
- 		 		<div class="desc">Ron Paul</div>	
-			</li>
-			<li>
-				<a href="http://www.google.com">
-  				<img src="CandidatePics/Santorum400.jpg" alt="Rick Santorum"  />
-  				</a>
-  				<div class="desc">Rick Santorum</div>	
-			</li>
-			<li>
-				<a href="Romney.html">
- 				<img src="CandidatePics/romney400.jpg" alt="Mitt Romney"  />
-				</a>
-				<div class="desc">Mitt Romney</div>	
-			</li>
-			<li>
-				<a href="Obamasapproval.php">
-  				<img src="CandidatePics/Obama.jpg" alt="Barack Obama" /> <!--width=400px-->
-  				</a>
-  				<div class="desc">Barack Obama</div>
-			</li>
-		</ul>
-	</div>
-	</div>
-	</body>
-</html>
