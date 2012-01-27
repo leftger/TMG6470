@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 </head></body>
@@ -11,24 +10,31 @@
   <option value="Santorum"; name="name">Rich Santorum</option>
   <option value="Paul"; name="name">Ron Paul</option>
 </select>-->
-<form name="input" action="graphTest.php" method="post">
+<!--<form name="input" action="arrays.php" method="post">
 <b>Select the candidates whose graphs you would like to see.</b><br />
 <input type="checkbox" name="vehicle[]" value="Romney" /> Mitt Romney<br />
 <input type="checkbox" name="vehicle[]" value="Gingrich" /> Newt Gingrich<br />
 <input type="checkbox" name="vehicle[]" value="Santorum" /> Rick Santorum<br />
 <input type="checkbox" name="vehicle[]" value="Paul" /> Ron Paul<br />
-<input type="submit" value="Graph" />
-</form> 
-<!--<br /><b>Type in and Submit the Candidate's Last Name </b>
-
-<form name="input" action="graph.php" method="get">
-Candidate: <input type="text" name="user" />
 <input type="submit" value="Submit" />
+</form> -->
+<br /><b>Type in and Submit the Candidate's Last Name </b>
+
+<!--<form action="array2.php" method="get">
+<input type="hidden" name="blob" value="Gingrich"/>
+<input type="image" src="CandidatePics/gingrich400.jpg" alt="Submit"/>
 </form>-->
+<a href="array2.php?blob=Gingrich">
+<img src="CandidatePics/gingrich400.jpg">
+</a>
 <br />
 <br />
-<a style="text-decoration: none; color: green" href="http://www.ebrueggeman.com/phpgraphlib">PHPGraphLib</a>
-<br />
-<img src="graph.php">
+<?php
+$group=array();
+$candidate= $_POST["blob"];
+//$candidate1= $candidate[0];
+echo $candidate;
+//echo $candidate1;
+?>
 </body>
 </html>
