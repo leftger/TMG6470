@@ -1,8 +1,5 @@
 <?php
 session_start();
-if(!isset($_SESSION['myusername'])){
-header("location:index.html");
-}
 ?>
 <!DOCTYPE html>
 <html>
@@ -30,7 +27,7 @@ header("location:index.html");
 		<div id="navigation_bar" >
 			<ul>
 				<li id="home" class="nav_bar">
-			 		<a href="http://17.0.0.1:8020/TMG6470/index.html">Home</a>
+			 		<a href="index.php">Home</a>
 			 		|
 			 	</li>
 			 	<li id="statistics" class="nav_bar">
@@ -76,11 +73,15 @@ header("location:index.html");
 						Password: <input type="password" name="mypassword"> </input><br />
 						<input type="submit" />
 					</form>
-			 	</li id= "logout_button">
-			 		<FORM>
-						<INPUT TYPE="BUTTON" VALUE="Logout" ONCLICK="window.location.href='logout.php'"> 
-					</FORM>
-			 	</li>
+					<?php
+					if (isset($_SESSION['myusername'])){
+						echo "</li id= \"logout_button\">
+			 				<FORM>
+								<INPUT TYPE=\"BUTTON\" VALUE=\"Logout\" ONCLICK=\"window.location.href='logout.php'\"> 
+							</FORM>
+			 				</li>";
+					}
+					?>
 			</ul>
 		</div>
 		</div>
@@ -89,10 +90,10 @@ header("location:index.html");
 			<?php
 			if (isset($_SESSION['myusername']))
 			{
-				echo "WELCOME: " . $_SESSION['myusername'] . "!";
+				echo "Welcome " . $_SESSION['myusername'] . "!";
 			}
 			else{
-				echo "Please log in :)";
+				echo "Current Candidates";
 			}
 			?>
 		</p>
