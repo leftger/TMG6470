@@ -4,52 +4,67 @@
 //$candidate=$_GET['user'];
 //$candidate="Romney";
 $candidate= $_POST['vehicle'];
-//if(($candidate=="Romney")||($candidate=="Paul")||($candidate=="Santorum")||($candidate=="Gingrich")) {
+
 include("phpgraphlib.php");
-//$graph=new PHPGraphLib(550,350);
+
+$graph=new PHPGraphLib(950,650);
+
 $link = mysql_connect('18.194.1.88:3306', 'TMG6470', 'snett')
    or die('Could not connect: ' . mysql_error());
      
 mysql_select_db('candidates_2012') or die('Could not select database');
 $dataArray=array();
-print_r($candidate);
-echo "<br />" . $candidate[2] . "<br />";
+//print_r($candidate);
+//echo "<br />" . $candidate[2] . "<br />";
 //for($i=0;$i<count($candidate); $i++) { 
 foreach ($candidate as $value) {
-//$data.$i=array();
-//$local.=$candidate[$i];
-//$candidate=$_POST[value];
-//get data from database
-//$sql="SELECT $local.$i,Date FROM gallup_poptime";
+	
 $sql="SELECT $value,Date FROM gallup_poptime";
-//$dates="SELECT Date FROM gallup_poptime";
 
 $result = mysql_query($sql) or die('Query failed: ' . mysql_error());
-//$result2 = mysql_query($dates) or die('Query failed: ' . mysql_error());
 
 if ($result) {
   while ($row = mysql_fetch_assoc($result)) {
       $salesgroup=$row["$value"];
       $dates=$row["Date"];
-      //$date=$result2[$count];
-      //add to data array
+      
       $data[$dates]=$salesgroup;
   }
 }
+$dataArray[]=$data;
+//$graph->addData($data);
 }
-print_r($data);
+$data1 = $dataArray[0];
+$data2 = $dataArray[1];
+$data3 = $dataArray[2];
+$data4 = $dataArray[3];
+//$data3 = array(43, 23, 34, 23, 53, 32, 43, 41);
 //print_r($dataArray);
-/*$graph->addData($data);
+//print_r($data1);
+//print_r($data2);
+$graph->addData($data1,$data2,$data3,$data4);
 $graph->setTitle("Popularity");
+$graph->setTitleLocation('left');
 $graph->setBars(false);
 $graph->setLine(true);
-$graph->setDataPoints(true);
-$graph->setDataPointColor('maroon');
+$graph->setLineColor("green","red","blue","purple");
+$graph->setRange(40,0);
+//$graph->setDataPoints(true);
+//$graph->setGradient('red', 'maroon');
+//$graph->setDataPointColor('maroon');
 //$graph->setDataValues(true);
 //$graph->setDataValueColor('maroon');
-$graph->setGoalLine(.0025);
-$graph->setGoalLineColor('red');
+//$graph->setGoalLine(.0025);
+//$graph->setGoalLineColor('red');
+$graph->setLegendTitle($candidate[0], $candidate[1], $candidate[2], $candidate[3]);
+$graph->setLegend(true);
 $graph->createGraph();
 //}*/
+/*$graph->setTitle('CPU Cycles x1000');
+$graph->setTitleLocation('left');
+$graph->setLegend(true);
+$graph->setLegendTitle('Module-1', 'Module-2', 'Module-3');
+$graph->setGradient('green', 'olive');
+$graph->createGraph();*/
 //else  echo "Please try again and submit the last name of a major presidential candidate but not the current incumbent.";
 ?>
