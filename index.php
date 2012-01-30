@@ -117,6 +117,7 @@ session_start();
 						echo $logged_in;
 						}?> 
 					</form>
+<<<<<<< HEAD
 
 				<?php
 				if(isset($_SESSION['myusername'])){
@@ -128,6 +129,17 @@ session_start();
 				}
 				?>
 
+=======
+					<?php
+					if (isset($_SESSION['myusername'])){
+						echo "</li id= \"logout_button\">
+			 				<FORM>
+								<INPUT TYPE=\"BUTTON\" VALUE=\"Logout\" ONCLICK=\"window.location.href='logout.php'\"> 
+							</FORM>
+			 				</li>";
+					}
+					?>
+>>>>>>> e2f1ef1cc2f7090e513bc97b0bea49f8f90f1e0f
 			 	</li>-->
 			 	<li id="Signin" class="nav_right">
 			 	<a href="signinpage.php">Signin</a>
@@ -140,6 +152,7 @@ session_start();
 		<div id="flag_box">
 		<img src="us flag.png" alt="flag" width="100%" height="100%">
 		</div>
+
 		<div id="title_wrap">
 		<p>Boys in the BATTLE >:O</p>
 		</div>
@@ -188,4 +201,4 @@ session_start();
 	</div>
 	</div>
 	</body>
-</html>
+	</html>
