@@ -70,7 +70,7 @@ border-radius: 5px;
 -moz-border-radius: 5px;
 -webkit-border-radius: 5px;
 box-shadow: 3px 3px 5px black;
-background-color: #b8b8b8;
+background-color: black;
 position: relative;
 }
  
@@ -78,7 +78,7 @@ position: relative;
 border: none;
 border-right: 1px solid #fff;
 float: left;
-margin: -15px -300px 0 -140px;
+margin: 0 -300px 0 -140px;
 opacity:0.6;
 filter:alpha(opacity=60);
 }
@@ -88,7 +88,7 @@ filter:alpha(opacity=60);
 }
 
 #accordion li.active img {
-margin: -15px 0 0 0;
+margin: 0 0 0 0;
 opacity:1.0;
 filter:alpha(opacity=100);	
 }

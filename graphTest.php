@@ -4,7 +4,7 @@
 //$candidate=$_GET['user'];
 //$candidate="Romney";
 $candidate= $_POST['vehicle'];
-
+if ($candidate==NULL) $candidate= array("Romney","Gingrich","Paul","Santorum");
 include("phpgraphlib.php");
 
 $graph=new PHPGraphLib(950,650);

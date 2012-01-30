@@ -4,7 +4,7 @@
 //$candidate=$_GET['user'];
 //$candidate="Romney";
 $candidate= $_POST['vehicle'];
-
+if ($candidate==NULL) $candidate= array("Romney","Gingrich","Paul","Santorum");
 include("phpgraphlib.php");
 
 $graph=new PHPGraphLib(950,650);
@@ -56,6 +56,7 @@ $graph->setLineColor("green","red","blue","purple");
 //$graph->setDataValueColor('maroon');
 //$graph->setGoalLine(.0025);
 //$graph->setGoalLineColor('red');
+$graph->setXValues(false);
 $graph->setLegendTitle($candidate[0], $candidate[1], $candidate[2], $candidate[3]);
 $graph->setLegend(true);
 $graph->createGraph();
