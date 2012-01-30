@@ -4,8 +4,8 @@
 	<title></title>
 </head>
 <body>
-<table style="column-count:2" width="100%">
-<tr><td width="25%">
+<table style="column-count:3" width="100%">
+<tr><td width="15%" valign="top">
 <h3>Gallup Polls Candidate Popularity</h3>
 <!--<img src="graph.php();?>-->
 <br />
@@ -23,7 +23,9 @@
 <input type="checkbox" name="vehicle[]" value="Paul" /> Ron Paul<br />
 <input type="submit" value="Graph" />
 <!--<a href="graphTest2.php" target="graph">Scrabble</a>-->
-</form> 
+</form>
+</br></br>
+
 <!--<br /><b>Type in and Submit the Candidate's Last Name </b>
 
 <form name="input" action="graph.php" method="get">
@@ -36,8 +38,22 @@ Candidate: <input type="text" name="user" />
 <br />
 <!--<image src="graphTest2.php" alt="graph image">-->
 </td>
-<td width="75%">
-<iframe src="" name="graph" width="100%" height="800px" frameborder="0">
-</td></tr></table>	
+<td width="70%" valign="middle">
+<iframe src="" name="graph" width="100%" height="900px" frameborder="0"></iframe>
+</td>
+<td width="15%" valign="top">
+<h3>Campaign Financing</h3>
+<br />
+
+<form name="input" action="graphTest2.php" method="post" target="graph">
+<b>Select the candidates whose graphs you would like to see.</b><br />
+<input type="checkbox" name="vehicle[]" value="Romney" /> Mitt Romney<br />
+<input type="checkbox" name="vehicle[]" value="Gingrich" /> Newt Gingrich<br />
+<input type="checkbox" name="vehicle[]" value="Santorum" /> Rick Santorum<br />
+<input type="checkbox" name="vehicle[]" value="Paul" /> Ron Paul<br />
+<input type="submit" value="Graph" />
+</form>
+</td>
+</tr></table>	
 </body>
 </html>
