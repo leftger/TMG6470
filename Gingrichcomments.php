@@ -5,7 +5,8 @@ $host="18.194.1.88:3306";
 $username="TMG6470";
 $password="snett"; 
 $db_name="candidates_2012";  
-$tbl_name="GingrichComments"; // Table name
+$tbl_name="GingrichComments"; 
+$web="Gingrichcomments.php";
 $link = mysql_connect('18.194.1.88:3306', 'TMG6470', 'snett') or die('Could not connect: ' . mysql_error());    
 mysql_select_db('candidates_2012') or die('Could not select database');
 

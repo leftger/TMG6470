@@ -6,6 +6,7 @@ $username="TMG6470";
 $password="snett"; 
 $db_name="candidates_2012";  
 $tbl_name="ObamaComments"; // Table name
+$web="Obamasapproval.php";
 $link = mysql_connect('18.194.1.88:3306', 'TMG6470', 'snett') or die('Could not connect: ' . mysql_error());    
 mysql_select_db('candidates_2012') or die('Could not select database');
 
