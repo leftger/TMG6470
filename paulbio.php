@@ -129,7 +129,7 @@ Sheldon Adelson, who presides over a global empire of casinos, hotels and conven
 		<a href="">What do you have to share? Post a Comment!</a>
 		<div id="Post_a_Comment" class="comments">
 			<div id="graybox">
-			<form action="comment.php" method="post">
+			<form action="paulsubmit.php" method="post">
 			<div><?php echo $_SESSION['myusername']. "'s"; ?> say: <br /> <textarea type="text" name="comment" rows="7" columns="40"></textarea></style></div>
 			<div id="submit_wrap">
 			<input type="submit" />
