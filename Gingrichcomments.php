@@ -6,12 +6,12 @@ $username="TMG6470";
 $password="snett"; 
 $db_name="candidates_2012";  
 $tbl_name="GingrichComments"; 
-$web="Gingrichcomments.php";
+$web="Gingrichbio.php";
 $link = mysql_connect('18.194.1.88:3306', 'TMG6470', 'snett') or die('Could not connect: ' . mysql_error());    
 mysql_select_db('candidates_2012') or die('Could not select database');
 
 
-$listofcomments="SELECT Name,Vote,Coment,ID,BadVote FROM GringrichComments";
+$listofcomments="SELECT Name,Vote,Coment,ID,BadVote FROM GingrichComments";
 $result = mysql_query($listofcomments) or die('Query failed: ' . mysql_error());
 $dataArray=array();
 if ($result) {
