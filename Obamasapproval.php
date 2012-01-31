@@ -48,9 +48,9 @@ header("location:index.html");
 		color:red;
 	}
 	#barackswrap{position: absolute; top: 30%;}
-	#CommentFeed{width: 600px; height: 620px; background: white; z-index:4; position: absolute; top: 35%; right: 24.25%;}
+	#CommentFeed{width: 45%; height: 80%; background: white; z-index:4; position: absolute; top: 35%; right: 24.25%;}
 	
-	#prettycomment{z-index: 7; background-color: white; position: absolute; top: -391px; height: 70px; width: 600px;}
+	#prettycomment{z-index: 7; background-color: white; position: absolute; top:10%; height: 100%; width: 500px;}
 	#prettycomment a{padding-left: 30px; text-align: center; text-decoration: none; color: black; font-size: 25px; font-family:Arial, Helvetica, sans-serif; font-weight:800; text-align: center;}
 	#prettycomment a:hover {opacity: .5;}
 	#Post_a_Comment{display:none}
@@ -61,7 +61,7 @@ header("location:index.html");
 	#reading_box{text-decoration: none; color: black; font-size: 17px; position: absolute; top: 30%;}
 	#reading_box a:hover {opacity: .5;}
 	
-	#comments{position: absolute; top: -270px; right: -565px; font-weight:800; background-color:#eeeeed; font-family: Arial, Helvetica, sans-serif; font-size: 16px; width: 500px; height: 520px; padding-left: 30px; padding-top: 15px;}
+	#comments{position: absolute; top: 20%; right: -100%; font-weight:800; background-color:#eeeeed; font-family: Arial, Helvetica, sans-serif; font-size: 16px; width: 100%; height: 50%; padding-left: 30px; padding-top: 15px;}
 	#graphbox{position: absolute; top: 50%; left: 0%;}
 	
 	h1{font-size: 22px;}
@@ -120,9 +120,9 @@ Sheldon Adelson, who presides over a global empire of casinos, hotels and conven
 
 </td>
 <td >
-<table >
-<tr >
-<td>
+<table width="100%">
+<tr width="100%">
+<td width="100%">
 <div id="CommentFeed">
 <div id="graphbox">
 		<div id="prettycomment">
