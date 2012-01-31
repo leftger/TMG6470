@@ -25,28 +25,32 @@ session_start();
 					</form>-->
 		<div id="smallheader">
 		<div id="login" class="nav_right">
-		<a href="">Login | Logout</a>
+		<a href=""><?php
+			if (isset($_SESSION['myusername'])){echo "Logout";}
+			else{echo "Login";}
+			?></a>
 			 		<div id='login_box'>
 			 		<form action="checklogin.php" method="post">
 						Username: <input type="text" name="myusername"> </input><br />
 						Password: <input type="password" name="mypassword"> </input><br />
 						<input type="submit" />
+						<?php
+						if(isset($_SESSION['myusername'])){
+					echo "</li id= \"logout_button\">
+					<INPUT TYPE=\"BUTTON\" VALUE=\"Logout\" ONCLICK=\"window.location.href='logout.php'\">";}
+					?>
 					</form>
 					</div>
 		</div>
 		<div id="welcome">
 			<?php
 			if (isset($_SESSION['myusername']))
-			{
-				echo "Welcome, " . $_SESSION['myusername'] . "";
-			}
-			else{
-				echo "Please log in :)";
-			}
-			?>
+			{echo "Welcome, " . $_SESSION['myusername'] . "";}
+			else{echo "Please log in :] or sign up!";}
+				?>
 		</div>
 		<div id="line">
-		<img src="redline.png" alt="line" width="1110px" height="4px">
+		<img src="redline.png" alt="line" width="100%" height="4px">
 		</div>
 		<div id="navigation_bar" >
 			<div id="logo_box">
@@ -97,6 +101,12 @@ session_start();
 			 		<a href="">Login/Logout</a>
 			 		<div id='login_box'></div>
 			 		<form action="checklogin.php" method="post">
+			 			<?php
+			 			// This was for reCaptcha -- don't need it here :)
+			 			/*require_once('recaptchalib.php');
+  						$publickey = "6LfB17oSAAAAADzAJWHF6CiqcDb6zRwc0ciTWzBP"; // you got this from the signup page
+  						echo recaptcha_get_html($publickey) . "<br />";*/
+  						?>
 						Username: <input type="text" name="myusername"> </input><br />
 						Password: <input type="password" name="mypassword"> </input><br />
 						<input type="submit" />
@@ -107,6 +117,19 @@ session_start();
 						echo $logged_in;
 						}?> 
 					</form>
+<<<<<<< HEAD
+
+				<?php
+				if(isset($_SESSION['myusername'])){
+					echo "</li id= \"logout_button\">
+			 		<FORM>
+						<INPUT TYPE=\"BUTTON\" VALUE=\"Logout\" ONCLICK=\"window.location.href='logout.php'\"> 
+					</FORM>
+			 	</li>";
+				}
+				?>
+
+=======
 					<?php
 					if (isset($_SESSION['myusername'])){
 						echo "</li id= \"logout_button\">
@@ -116,10 +139,12 @@ session_start();
 			 				</li>";
 					}
 					?>
+>>>>>>> e2f1ef1cc2f7090e513bc97b0bea49f8f90f1e0f
 			 	</li>-->
 			 	<li id="Signin" class="nav_right">
 			 	<a href="signinpage.php">Signin</a>
 			 	</li>
+
 			</ul>
 		</div>
 		</div>
@@ -134,27 +159,30 @@ session_start();
 		<div id="accordian_box">
 		<ul id="accordion">
 			<li>
-				<a href="http://www.google.com">
+				<a href="candidate.php?id=404587">
   				<img src="CandidatePics/gingrich400.jpg" alt="Newt Gingrich"   />
   				</a>
   				<div class="desc">Newt Gingrich</div>
 			</li>
 			
 			<li>
-				<a href="http://www.google.com">
-  				<img src="CandidatePics/rick-perrymod3.jpg" alt="Rick Perry"  />
+
+
+				<a href="candidate.php?id=408649">
+  				<img src="CandidatePics/rick-perry.jpg" alt="Rick Perry"  />
+
   				</a>
   				<div class="desc">Rick Perry</div>
   				
 			</li>
 			<li>
-				<a href="http://www.google.com">
+				<a href="candidate.php?id=400311">
  			 	<img src="CandidatePics/RonPaul.jpg" alt="Ron Paul"   />
  		 		</a>
  		 		<div class="desc">Ron Paul</div>	
 			</li>
 			<li>
-				<a href="http://www.google.com">
+				<a href="candidate.php?id=300085">
   				<img src="CandidatePics/Santorum400.jpg" alt="Rick Santorum"  />
   				</a>
   				<div class="desc">Rick Santorum</div>	
@@ -166,6 +194,7 @@ session_start();
 				<div class="desc">Mitt Romney</div>	
 			</li>
 			<li>
+				<a href="candidate.php?id=400629">
 				<a href="Obamasapproval.php">
   				<img src="CandidatePics/Obama.jpg" alt="Barack Obama" /> <!--width=400px-->
   				</a>
@@ -175,4 +204,4 @@ session_start();
 	</div>
 	</div>
 	</body>
-</html>
+	</html>

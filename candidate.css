@@ -1,0 +1,9 @@
+body{background-color:#cccccc;}
+tr{width:inherit;height:30px;}
+td{width:50%;height:10px;overflow: hidden;}
+td img{border-radius: 15px;-moz-border-radius: 15px;-webkit-border-radius: 15px;border:#999999 solid;}
+
+
+
+
+

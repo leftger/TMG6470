@@ -3,14 +3,12 @@ body{
 	background: #000033;
 }
 /*#line{position: absolute; top: 70px; left: 1px;}*/
-
 li{font-family: Impact, Charcoal, sans-serif; /*Arial, Helvetica, sans-serif;*/ /*lucida,tahoma,verdana;*/ font-size: 22px}
-/*#header{height: 125px;background-image: url('backgroundheader.png'); width: 100%; /*-webkit-border-top-left-radius:10px;-webkit-border-top-right-radius:10px;*/
 #large_box{z-index: -1; position: absolute; top:17%;left: 10%; height:1000px; width: 80%;background: #F8FFFF; padding: 0px;box-shadow: 3px 3px 5px black;/*border-radius: 10px;-webkit-border-radius: 10 px;*/}
 #smallheader{ box-shadow: 3px 3px 5px black; background-image: url('backgroundheader.png'); height: 125px; width: 100%; position: absolute; top: 0px;left: 0px; /*background-image: url('backgroundheader.png'); /*-webkit-border-top-right-radius:10px*/}
 #logo_box{height: 130px; width: 200px;position: absolute; top: -250%;left: 5%;}
 #flag_box{position: absolute; top: 0%; width: 100%; opacity: .1;}
-#welcome{ position: absolute; left: 300px; top: -25px; font-family: Impact, Charcoal, sans-serif; font-size: 30px;}
+#welcome{ position: absolute; left: 300px; top: -5px; font-family: Impact, Charcoal, sans-serif; font-size: 30px;}
 
 #line{ height: 3px; position:absolute; top: 15%; right: 0%; width: 100%;  }
 #login{ z-index: 3; font-family: Arial, Helvetica, sans-serif; font-size: 15px; padding: 5px; position: absolute; top:25%; right: 20%; box-shadow: 3px 3px 5px black; background-color: #BB0000; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;}
@@ -32,15 +30,30 @@ li{font-family: Impact, Charcoal, sans-serif; /*Arial, Helvetica, sans-serif;*/ 
 #navigation_bar ul li ul{display: none; background-image: url('lilback.png');padding: 1px; border-style: solid; border-width:1px; margin-top: 0px;}
 #navigation_bar ul li ul li{border-style: none;list-style: none; float: left;padding-top: 6px;}
 #navigation_bar ul li form{display: none;}
-/*#navigation_bar ul li:hover ul{background-image: url('lilback.png'); display: block; height: 170px;width: 165px; box-shadow: 3px 3px 5px black; position: relative; top: -50%;}*/
 #navigation_bar ul li:hover ul{background-image: url('lilback.png'); display: block; height: 170px;width: 175px; box-shadow: 3px 3px 5px black; position: relative; top: -50%;}
 #navigation_bar ul li:hover form{display: block;position: inherit; background-image: url('dropdown.png'); height: 100px;width: 300px; box-shadow: 3px 3px 5px black;border-radius: 5px;-webkit-border-radius: 5 px;}
 #page{z-index: -1; position: absolute; top:17%;left: 10%; height:1000px; width: 80%;background: #F8FFFF; padding: 0px;box-shadow: 3px 3px 5px black;/*border-radius: 10px;-webkit-border-radius: 10 px;*/}
 
-#comment_box{ background-color: #FFFFF0;font-family: Arial, Helvetica, sans-serif; font-size: 15px; padding: 5px; position: absolute; top: 30%; right: 0%; width: 7%; height: 5%; border-style: solid; border-width:1px; border-top-left-radius: 5px;border-bottom-left-radius: 5px;}
+#comment_box{ background-color: #FFFFF0;font-family: Arial, Helvetica, sans-serif; font-size: 15px; padding: 5px; position: absolute; top: 15%; right: -.1%; width: 7%; height: 5%; border-style: solid; border-width:1px; border-top-left-radius: 5px;border-bottom-left-radius: 5px;}
 #Post_a_Comment{display: none;}
 #comment_box a {text-decoration: none; color: black; font-size: 17px; position: absolute; top: 30%;}
 #comment_box a:hover {opacity: .5;}
 #comment_box:hover #Post_a_Comment form{padding: 10px;}
-#comment_box:hover #Post_a_Comment {background-color:#FFFFF0; display: block; position: inherit; right: 18%; width: 500%; height: 300%; border-style: solid; border-width: 1px;}
+#comment_box:hover #Post_a_Comment {z-index: 3; background-color:#FFFFF0; display: block; position: inherit; top: -5%; right: -.1%; width: 500%; height: 300%; border-style: solid; border-width: 1px; border-top-left-radius: 5px; border-bottom-left-radius: 5px;}
 #graphbox{position: absolute; top: 50%; left: 0%;}
+#submit_wrap{position: absolute; right: 5%; top: 40%;}
+
+#reading_box{ background-color: #FFFFF0;font-family: Arial, Helvetica, sans-serif; font-size: 15px; padding: 5px; position: absolute; top: 22%; right: -.1%; width: 7%; height: 5%; border-style: solid; border-width:1px; border-top-left-radius: 5px;border-bottom-left-radius: 5px;}
+#reading_box a {text-decoration: none; color: black; font-size: 17px; position: absolute; top: 30%;}
+#comments{display: none;}
+#reading_box:hover #comments{padding: 10px; z-index: 3; background-color:#FFFFF0; display: block; position: inherit; top: -5%; right: -.1%; width: 550%; height: 1200%; border-style: solid; border-width: 1px; border-top-left-radius: 5px; border-bottom-left-radius: 5px;}
+#yesbox{display:none;}
+#thumb{z-index:4; height: 70px; width: 30px;}
+#thumbwrap{display: block; position: relative; top: 20px; }
+#thumb:hover #yesbox{display: block;position: relative; width: 40px; height:  40px; z-index: 3; top: 5px; right: 3px;}
+#thumb:hover #thumbwrap{position: relative; top: -20px;}
+
+
+
+
+
