@@ -8,115 +8,55 @@ header("location:index.html");
 	<html>
 		<head>
 			<link rel = "stylesheet" type="text/css" href=" main.css" >
-	<style type="text/css">
-	#box {
-		background-color:#B3B3B3; width: 90%; margin-top: 100px; margin-left: auto; margin-right: auto; padding-top: 50px;
-	}
-	td.side {
-		background-color:#F0F0F0; border:#F4F5F5; border-style:solid; padding-left: 10px; padding-right: 10px;
-	}
-	#graphTop {
-		background-color:white; width: 60%; height: 275px;
-	}
-	#graphBot {
-		background-color:#B3B3B3; width: 60%;
-		margin-left: -10px;
-		margin-right: auto;
-		position: absolute;
-		top: 127%;
-	}
-	#graphBot img {
-		padding: 15px;
-		width: 74.5%;
-		filter:alpha(opacity=80);
-		position: absolute;
-	}
-	.news {
-		display:block;
-		background-color:#777777;
-		/*#000033*/
-		padding: 5px;
-		font-size: 11px;
-	}
-	.news a{
-		text-decoration: none;
-		font-family:"Verdana", Verdana, sans-serif;
-		color:white;
-		font-size: 15px;
-	}
-	.news a:hover {
-		color:red;
-	}
-	#barackswrap{position: absolute; top: 30%;}
-	#CommentFeed{width: 600px; height: 620px; background: white; z-index:4; position: absolute; top: 35%; right: 24.25%;}
-	
-	#prettycomment{z-index: 7; background-color: white; position: absolute; top: -391px; height: 70px; width: 600px;}
-	#prettycomment a{padding-left: 30px; text-align: center; text-decoration: none; color: black; font-size: 25px; font-family:Arial, Helvetica, sans-serif; font-weight:800; text-align: center;}
-	#prettycomment a:hover {opacity: .5;}
-	#Post_a_Comment{display:none}
-	#graybox{background: #eeeeed; width: 90%; height: 90%; margin: 15px;}
-	#prettycomment:hover #Post_a_Comment form{font-family: Arial, Helvetica, sans-serif; font-weight: 900; display: block; padding: 20px; padding-left: 35px; position: absolute; top: 0%; left: 0px; }
-	#prettycomment:hover #Post_a_Comment{border-style:solid; border-width:2px; border-color: #eeeedd; display: block; background-color:#FFFFF0; position: inherit; right: 0%; top: 105%; width: 100%; height: 300%; }
-	#reading_box{width: 200px; height: 300px; background: yellow; z-index:5; position: absolute; top: 10%; right: 0%;}
-	#reading_box{text-decoration: none; color: black; font-size: 17px; position: absolute; top: 30%;}
-	#reading_box a:hover {opacity: .5;}
-	
-	#comments{position: absolute; top: -270px; right: -565px; font-weight:800; background-color:#eeeeed; font-family: Arial, Helvetica, sans-serif; font-size: 16px; width: 500px; height: 520px; padding-left: 30px; padding-top: 15px;}
-	#graphbox{position: absolute; top: 50%; left: 0%;}
-	
-	h1{font-size: 22px;}
-	h3{position: absolute; top: 22%;}
-	table.cooltable{height: 1100px; }
-	</style>
+			<link rel = "stylesheet" type="text/css" href=" BioCSS.css" >
 </head>
 <div id="box">
 <table class="cooltable">
-<tr><td  class="side" width="28%">
+<tr><td  class="side" width="20%">
 <div id="minibox">
-<h3>President Barack Obama</h3>
+<h3>Ron Paul</h3>
 <div id="barackswrap">			
-<img src="BarackObama2005portrait.png">
+<img src="CandidatePics/Paul.jpeg">
 </div>
 <br />
 </br></br>
-
-
-
-</br>
-</br>
-</br>
-</br>
-</br>	
-</br>
-</br>
-</br>
-</br>		
+	
 <div class="news">
-<a href="http://www.cnn.com/2012/01/30/politics/fl-insiders-survey/index.html">
-Florida Insiders Survey: 'Romney stepping up his game' -CNN
-</a>
+1913 wasn't a very good year. 1913 gave us the income tax, the 16th amendment and the IRS.
 </br>
-As the Republican presidential campaign heads toward a critical showdown in the Florida primary, former Massachusetts Gov. Mitt Romney appears to have rebounded...
+<a href="http://www.brainyquote.com/quotes/authors/r/ron_paul.html">
+-Ron Paul
+</a>
 </div>
+</br>
 
-</br>	
 <div class="news">
-<a href="http://politics.blogs.foxnews.com/2012/01/30/final-data-dump-florida-early-voting-results">
-Final data dump: Florida early voting results -Fox News
-</a>
+A system of capitalism presumes sound money, not fiat money manipulated by a central bank. Capitalism cherishes voluntary contracts and interest rates that are determined by savings, not credit creation by a central bank.
 </br>
-The Florida Republican Party has released the final numbers of early and absentee voting to be revealed ahead of Tuesday's primary vote.
+<a href="http://www.brainyquote.com/quotes/authors/r/ron_paul.html">
+-Ron Paul
+</a>
 </div>
+</br>
 
 
-</br>	
 <div class="news">
-<a href="http://www.nytimes.com/2012/01/29/us/politics/the-man-behind-gingrichs-money.html?_r=1&ref=politics">
-The Man Behind Gingrich&rsquo;s Money -The New York Times
-</a>
+All initiation of force is a violation of someone else's rights, whether initiated by an individual or the state, for the benefit of an individual or group of individuals, even if it's supposed to be for the benefit of another individual or group of individuals.
 </br>
-Sheldon Adelson, who presides over a global empire of casinos, hotels and convention centers and is by some estimates worth as much as $22 billion, is a large financial source for Newt Gingrich.
+<a href="http://www.brainyquote.com/quotes/authors/r/ron_paul.html">
+-Ron Paul
+</a>
 </div>
+</br>
+
+<div class="news">
+Another term for preventive war is aggressive war - starting wars because someday somebody might do something to us. That is not part of the American tradition.
+</br>
+<a href="http://www.brainyquote.com/quotes/authors/r/ron_paul.html">
+-Ron Paul
+</a>
+</div>
+</br>
 
 </td>
 <td >
@@ -139,7 +79,7 @@ Sheldon Adelson, who presides over a global empire of casinos, hotels and conven
 		</div>
 		</div>
 		<div id="comments">
-			<h1>Top Rated Comments for Barack Obama:</h1>
+			<h1>Top Rated Comments for Ron Paul:</h1>
 			<?php include("Paulcomments.php"); ?>
 		</div>
 	</div>
@@ -149,7 +89,7 @@ Sheldon Adelson, who presides over a global empire of casinos, hotels and conven
 <tr>
 <td>
 <div id="graphBot">
-<img src = "obamagraph.php">
+<img src = "CandidatePics/GOPcontenderhigh.jpg">
 </div>
 </td>
 </tr>
@@ -157,34 +97,32 @@ Sheldon Adelson, who presides over a global empire of casinos, hotels and conven
 </td>
 <td  class="side" width="20%">
 <h3>Biographical Background</h3>
+<div class="news">-from Wikipedia</div>
+<br />
+<div class="news">
+<a href="http://en.wikipedia.org/wiki/Newt_Gingrich">
+Ron Paul</a>
+</br>
+Ronald Ernest "Ron" Paul (born August 20, 1935) is an American medical doctor, author, Republican United States Representative, and a candidate for the 2012 Republican Party presidential nomination. He has been an outspoken critic of American foreign and monetary policies, recognized for sharply opposing his own party on many issues. Since 1997, Paul has represented Texas's 14th congressional district, which covers an area south and southwest of Houston that includes Galveston. Paul serves on the House Committees on Foreign Affairs and Financial Services, and on the Joint Economic Committee, as well as chairman of the Financial Services Subcommittee on Domestic Monetary Policy and Technology.
+</div>
 
 <br />
 <div class="news">
-<a href="http://www.gallup.com/poll/152240/Romney-Ties-Obama-Swing-States-Gingrich-Trails.aspx">
-Romney Ties Obama in Swing States; Gingrich Trails -Gallup
-</a>
+<a href="http://en.wikipedia.org/wiki/Newt_Gingrich">
+Early congressional career (1976-1984)</a>
 </br>
-Voters in 12 key swing states and nationally are split between Barack Obama and Mitt Romney in their 2012 preferences, but pick Obama over Newt Gingrich. Gingrich and Romney are nearly tied again in national GOP nominee preferences.
-</div>
-
-</br>	
-<div class="news">
-<a href="http://www.bbc.co.uk/news/world-us-canada-16696347">
-Wealthy Romney reveals 14% taxes -BBC
-</a>
-</br>
-US Republican presidential candidate Mitt Romney expects to pay about $6.2m (�4m) in taxes on income of $42.5m in the last two years.
-That makes for a tax rate of 13.9% in 2010 and an expected rate of 15.4% in 2011, his campaign said.
+While still a medical resident in the 1960s, Paul was influenced by Friedrich Hayek's The Road to Serfdom, which caused him to read many publications by Ludwig von Mises and Ayn Rand. He came to know economists Hans Sennholz and Murray Rothbard well, and credits to them his interest in the study of economics.
+He came to believe that what the Austrian School economists wrote was becoming true on August 15, 1971, when President Richard Nixon "closed the gold window" by implementing the U.S. dollar's complete departure from the gold standard. That same day, the young physician decided to enter politics, saying later, "After that day, all money would be political money rather than money of real value. I was astounded."
 </div>
 
 
-</br>	
+<br />
 <div class="news">
-<a href="http://www.latimes.com/news/politics/la-pn-still-down-in-florida-polls-gingrich-kicks-off-fivecity-dash-20120130,0,6269530.story?track=rss">
-Still down in Florida polls, Gingrich kicks off five-city dash -LA Times
-</a>
+<a href="http://en.wikipedia.org/wiki/Newt_Gingrich">
+Relationship with district</a>
 </br>
-Kicking off a five-city dash around Florida a day before the state holds a critical primary, Newt Gingrich said on Monday that he was the only GOP candidate who could beat President Obama and slammed rival Mitt Romney as liberal...
+Paul's congressional district is larger than Massachusetts, with 675 miles (1,086 km) of Gulf of Mexico coastline between Houston and Rockport, Texas, including some 22 counties. Paul opposes federally funded flood insurance. In a rural region known for ranching and rice farms, Paul opposes farm subsidies.
+Paul has added earmarks, such as for Texas shrimp promotion, but routinely votes against most spending bills returned by committee. Paul compared his practice to objecting to the tax system yet taking all one's tax credits: "I want to get their money back for the people."
 </div>
 
 </td>

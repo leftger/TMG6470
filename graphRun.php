@@ -10,7 +10,7 @@
 		background-color:#F0F0F0; border:#F4F5F5; border-style:solid; padding-left: 10px; padding-right: 10px;
 	}
 	#graphTop {
-		background-color:white; width: 100%; height: 600px;
+		background-color:white; width: 100%; height: 100%;
 	}
 	#graphBot {
 		background-color:#B3B3B3; width: 100%;
@@ -38,6 +38,22 @@
 	.news a:hover {
 		color:red;
 	}
+	#foot {
+		display:block;
+		z-index:2;
+		text-align:center;
+		font-family: Impact, Charcoal, sans-serif;
+		background-color:#D3D3D3;		
+		padding: 5px;
+		opacity:0.4;
+		filter:alpha(opacity=40);
+		background-image: url("CandidatePics/capitol_hill_lg.jpg");
+		margin-left:8%;
+		margin-right:15%;
+		width: 450px;
+		height: 230px;
+	}
+
 	</style>
 </head>
 <body>
@@ -114,15 +130,21 @@ Sheldon Adelson, who presides over a global empire of casinos, hotels and conven
 <tr height="400px">
 <td>
 <div id="graphTop">
-<iframe src="" name="graph" width="100%" height="900px" frameborder="0"></iframe>
+<iframe src="" name="graph" width="100%" height="700px" frameborder="0"></iframe>
 </div>
 </td>
 </tr>
 <tr>
 <td>
 <div id="graphBot">
-<img src="CandidatePics/capitol_hill_lg.jpg" alt="Capitol Hill nataliaallen.wordpress.com">
+<!--<img src="CandidatePics/capitol_hill_lg.jpg" alt="Capitol Hill nataliaallen.wordpress.com">-->
+<div id="foot">
+Nameless Website Gerzain Rosas, Michael DuPlessis, Thane Miller</br></br>
+Developed for MIT's IAP 2012 6.470 Web Development Competition.</br></br>
+Thank You to govtrack.us, Gallup, YouTube, Facebook, PhpGraphLib
 </div>
+</div>
+
 </td>
 </tr>
 </table>
