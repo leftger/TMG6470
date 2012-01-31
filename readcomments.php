@@ -52,6 +52,7 @@ for($n=0; $n<$i; $n++){
 }
 $morerows=true;
 ?>
+
 <html>
 	<head>
 	<link rel = "stylesheet" type="text/css" href=" main.css" >
@@ -68,7 +69,7 @@ $morerows=true;
 <td><div id="thumb"><div id="thumbwrap"><div id="yesbox"><img src= "dislike.png" alt="like" width="40px" height="40px"></div><?echo "<INPUT TYPE=\"IMAGE\" SRC=\"badthumb.png\"  width=\"30px\" height=\"25px\" ONCLICK= window.location.href=\"blike.php?id=$id&vote=$bvte\">";?> </td></div></div>
 </tr>
 <tr>
-<td><? echo "'".$fullsort[0][1] . "'"; ?><br /> </td>
+<td><? echo "'".$fullsort[0][1] . "'"; ?> </td>
 </tr>
 <tr>
 	<?	$id2=$fullsort[1][3];
@@ -82,7 +83,7 @@ $morerows=true;
 <td><div id="thumb"><div id="thumbwrap"><div id="yesbox"><img src= "dislike.png" alt="like" width="40px" height="40px"></div><?echo "<INPUT TYPE=\"IMAGE\" SRC=\"badthumb.png\"  width=\"30px\" height=\"25px\" ONCLICK= window.location.href=\"blike.php?id=$id2&vote=$bvte2\">";?> </td></div></div>
 </tr>
 <tr>
-<td> <? echo "'".$fullsort[1][1] . "'"; ?><br /> </td>
+<td> <? echo "'".$fullsort[1][1] . "'"; ?></td>
 </tr>
 <tr>
 	<?	$id3=$fullsort[2][3];
@@ -97,8 +98,9 @@ $morerows=true;
 
 </tr>
 <tr>
-	<td><? echo "'".$fullsort[2][1] . "'"; ?><br /></td>
+	<td><? echo "'".$fullsort[2][1] . "'"; ?></td>
 </tr>
+<!--
 <tr>
 	<?	$id4=$fullsort[3][3];
 	$vte4=$fullsort[3][2]+1;
@@ -112,7 +114,7 @@ $morerows=true;
 
 </tr>
 <tr>
-	<td><?  echo "'".$fullsort[3][1] . "'"; ?><br /></td>
+	<td><?  echo "'".$fullsort[3][1] . "'"; ?></td>
 </tr>
 <tr>
 	<?	$id5=$fullsort[4][3];
@@ -127,7 +129,7 @@ $morerows=true;
 
 </tr>
 <tr>
-<td><? echo "'".$fullsort[4][1] . "'"; ?><br /> </td>
+<td><? echo "'".$fullsort[4][1] . "'"; ?></td>
 </tr>
 <tr>
 	<?	$id6=$fullsort[5][3];
@@ -142,7 +144,7 @@ $morerows=true;
 
 </tr>
 <tr>
-<td><? echo "'".$fullsort[5][1] . "'"; ?><br /> </td>
+<td><? echo "'".$fullsort[5][1] . "'"; ?></td>
 </tr>
 <tr>
 	<?	$id7=$fullsort[6][3];
@@ -171,7 +173,7 @@ $morerows=true;
 </tr>
 <tr>
 <td><? echo "'".$fullsort[7][1] . "'"; ?><br /> </td>
-</tr>
+</tr>-->
 </table>
 </html>
 

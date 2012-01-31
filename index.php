@@ -160,6 +160,7 @@ session_start();
 		<ul id="accordion">
 			<li>
 				<a href="candidate.php?id=404587">
+				<a href="Gingrichbio.php">
   				<img src="CandidatePics/gingrich400.jpg" alt="Newt Gingrich"   />
   				</a>
   				<div class="desc">Newt Gingrich</div>
@@ -177,18 +178,20 @@ session_start();
 			</li>
 			<li>
 				<a href="candidate.php?id=400311">
+				<a href="paulbio.php">
  			 	<img src="CandidatePics/RonPaul.jpg" alt="Ron Paul"   />
  		 		</a>
  		 		<div class="desc">Ron Paul</div>	
 			</li>
 			<li>
 				<a href="candidate.php?id=300085">
+				<a href="Santorumbio.php"></a>
   				<img src="CandidatePics/Santorum400.jpg" alt="Rick Santorum"  />
   				</a>
   				<div class="desc">Rick Santorum</div>	
 			</li>
 			<li>
-				<a href="http://www.google.com">
+				<a href="Romneybio.php">
  				<img src="CandidatePics/romney400.jpg" alt="Mitt Romney"  />
 				</a>
 				<div class="desc">Mitt Romney</div>	
