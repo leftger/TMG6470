@@ -140,7 +140,7 @@ Sheldon Adelson, who presides over a global empire of casinos, hotels and conven
 		</div>
 		<div id="comments">
 			<h1>Top Rated Comments for Barack Obama:</h1>
-			<?php include("readcomments.php"); ?>
+			<?php include("Santorumcomments.php"); ?>
 		</div>
 	</div>
 </div>
