@@ -179,7 +179,7 @@ Voters in 12 key swing states and nationally are split between Barack Obama and 
 Wealthy Romney reveals 14% taxes -BBC
 </a>
 </br>
-US Republican presidential candidate Mitt Romney expects to pay about $6.2m (£4m) in taxes on income of $42.5m in the last two years.
+US Republican presidential candidate Mitt Romney expects to pay about $6.2m (ï¿½4m) in taxes on income of $42.5m in the last two years.
 That makes for a tax rate of 13.9% in 2010 and an expected rate of 15.4% in 2011, his campaign said.
 </div>
 

@@ -52,6 +52,26 @@ for($n=0; $n<$i; $n++){
 	}
 }
 $morerows=true;
+$chop=array();
+for($x=0; $x<$i; $x++){
+	if(!($x==0)){
+		$chop[$x]=array($fullsort[$x][0],$fullsort[$x][1],$fullsort[$x][2],$fullsort[$x][3],$fullsort[$x][4]);
+	}
+}
+
+$rand_keys =array_rand($chop, 2);
+
+ 
+$newone=array();
+
+for($x=1; $x<count($chop)+1; $x++){
+	$temppp=0;
+	if($chop[$x][3]>$temppp){
+	$temppp=$chop[$x];
+	}
+	$newone=array($temppp[0],$temppp[1],$temppp[2],$temppp[3],$temppp[4]);
+}
+?>
 ?>
 
 <html>
@@ -73,33 +93,33 @@ $morerows=true;
 <td><? echo "'".$fullsort[0][1] . "'"; ?> </td>
 </tr>
 <tr>
-	<?	$id2=$fullsort[1][3];
-	$vte2=$fullsort[1][2]+1;
-	$bvte2=$fullsort[1][4]+1;?>
-<td><br /><font color="#1C62B9"><?echo $fullsort[1][0]."-"; ?></td>
-<td><font color="#090"><?echo $fullsort[1][2]?></td>
+	<?	$id2=$newone[3];
+	$vte2=$newone[2]+1;
+	$bvte2=$newone[4]+1;?>
+<td><br /><font color="#1C62B9"><?echo $newone[0]."-"; ?></td>
+<td><font color="#090"><?echo $newone[2]?></td>
 <td ><div id="thumb"><div id="thumbwrap"><div id="yesbox"><img src= "likeicon.png" alt="like" width="40px" height="40px"></div><?echo "<INPUT TYPE=\"IMAGE\" SRC=\"thumb.png\"  width=\"30px\" height=\"25px\" ONCLICK= window.location.href=\"Santorumlike.php?id=$id2&vote=$vte2\">";?> </td></div></div>
 
-<td><font color=red><?echo $fullsort[1][4]?></td>
+<td><font color=red><?echo $newone[4]?></td>
 <td><div id="thumb"><div id="thumbwrap"><div id="yesbox"><img src= "dislike.png" alt="like" width="40px" height="40px"></div><?echo "<INPUT TYPE=\"IMAGE\" SRC=\"badthumb.png\"  width=\"30px\" height=\"25px\" ONCLICK= window.location.href=\"Santorumblike.php?id=$id2&vote=$bvte2\">";?> </td></div></div>
 </tr>
 <tr>
-<td> <? echo "'".$fullsort[1][1] . "'"; ?></td>
+<td> <? echo "'".$newone[1] . "'"; ?></td>
 </tr>
 <tr>
-	<?	$id3=$fullsort[2][3];
-	$vte3=$fullsort[2][2]+1;
-	$bvte3=$fullsort[2][4]+1;?>
-<td><br /><font color="#1C62B9"><?echo $fullsort[2][0]."-"; ?></td>
-<td><font color="#090"><?echo $fullsort[2][2]?></td>
+	<?	$id3=$chop[$rand_keys[0]][3];
+	$vte3=$chop[$rand_keys[0]][2]+1;
+	$bvte3=$chop[$rand_keys[0]][4]+1;?>
+<td><br /><font color="#1C62B9"><?echo $chop[$rand_keys[0]][0]."-"; ?></td>
+<td><font color="#090"><?echo $chop[$rand_keys[0]][2]?></td>
 <td ><div id="thumb"><div id="thumbwrap"><div id="yesbox"><img src= "likeicon.png" alt="like" width="40px" height="40px"></div><?echo "<INPUT TYPE=\"IMAGE\" SRC=\"thumb.png\"  width=\"30px\" height=\"25px\" ONCLICK= window.location.href=\"Santorumlike.php?id=$id3&vote=$vte3\">";?> </td></div></div>
 
-<td><font color=red><?echo $fullsort[2][4]?></td>
+<td><font color=red><?echo $chop[$rand_keys[0]][4]?></td>
 <td><div id="thumb"><div id="thumbwrap"><div id="yesbox"><img src= "dislike.png" alt="like" width="40px" height="40px"></div><?echo "<INPUT TYPE=\"IMAGE\" SRC=\"badthumb.png\"  width=\"30px\" height=\"25px\" ONCLICK= window.location.href=\"Santorumblike.php?id=$id3&vote=$bvte3\">";?> </td></div></div>
 
 </tr>
 <tr>
-	<td><? echo "'".$fullsort[2][1] . "'"; ?></td>
+	<td><? echo "'".$chop[$rand_keys[0]][1] . "'"; ?></td>
 </tr>
 <!--
 <tr>
