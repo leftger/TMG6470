@@ -22,31 +22,41 @@ header("location:index.html");
 </br></br>
 	
 <div class="news">
-<a href="http://www.cnn.com/2012/01/30/politics/fl-insiders-survey/index.html">
-Florida Insiders Survey: 'Romney stepping up his game' -CNN
-</a>
+A mere forty years ago, beach volleyball was just beginning. No bureaucrat would have invented it, and that's what freedom is all about.
 </br>
-As the Republican presidential campaign heads toward a critical showdown in the Florida primary, former Massachusetts Gov. Mitt Romney appears to have rebounded...
+<a href="http://www.brainyquote.com/quotes/authors/n/newt_gingrich.html">
+-Newt Gingrich
+</a>
 </div>
+</br>
 
-</br>	
 <div class="news">
-<a href="http://politics.blogs.foxnews.com/2012/01/30/final-data-dump-florida-early-voting-results">
-Final data dump: Florida early voting results -Fox News
-</a>
+An energy tax punishes senior citizens, it punishes rural Americans, if you use electricity it punishes you. This bill will increase your cost of living and may kill your job.
 </br>
-The Florida Republican Party has released the final numbers of early and absentee voting to be revealed ahead of Tuesday's primary vote.
+<a href="http://www.brainyquote.com/quotes/authors/n/newt_gingrich.html">
+-Newt Gingrich
+</a>
 </div>
+</br>
 
 
-</br>	
 <div class="news">
-<a href="http://www.nytimes.com/2012/01/29/us/politics/the-man-behind-gingrichs-money.html?_r=1&ref=politics">
-The Man Behind Gingrich&rsquo;s Money -The New York Times
-</a>
+And by the way I don't object if people want to attack me, that's their right. All I'm suggesting that it's not going to be very effective and that people are going to get sick of it very fast. And the guys who attacked each other in the debates up to now, every single one of them have lost ground by attacking.
 </br>
-Sheldon Adelson, who presides over a global empire of casinos, hotels and convention centers and is by some estimates worth as much as $22 billion, is a large financial source for Newt Gingrich.
+<a href="http://www.brainyquote.com/quotes/authors/n/newt_gingrich.html">
+-Newt Gingrich
+</a>
 </div>
+</br>
+
+<div class="news">
+And my point was one I think that you'd agree with, which is there's no room in America for a black racist, a Latino racist, or a white racist, or an Asian racist, or a Native American racist. Now, we're either color blind or we're not color blind.
+</br>
+<a href="http://www.brainyquote.com/quotes/authors/n/newt_gingrich.html">
+-Newt Gingrich
+</a>
+</div>
+</br>
 
 </td>
 <td >
@@ -87,34 +97,30 @@ Sheldon Adelson, who presides over a global empire of casinos, hotels and conven
 </td>
 <td  class="side" width="20%">
 <h3>Biographical Background</h3>
+<div class="news">-from Wikipedia</div>
+<br />
+<div class="news">
+<a href="http://en.wikipedia.org/wiki/Newt_Gingrich">
+Newt Gingrich</a>
+</br>
+Newton Leroy "Newt" Gingrich (born Newton Leroy McPherson; June 17, 1943) is an American politician, author, and political consultant who served as the 58th Speaker of the U.S. House of Representatives from 1995 to 1999. He represented Georgia's 6th congressional district as a Republican from 1979 until his resignation in 1999. He is a candidate for the 2012 Republican Party presidential nomination.
+</div>
 
 <br />
 <div class="news">
-<a href="http://www.gallup.com/poll/152240/Romney-Ties-Obama-Swing-States-Gingrich-Trails.aspx">
-Romney Ties Obama in Swing States; Gingrich Trails -Gallup
-</a>
+<a href="http://en.wikipedia.org/wiki/Newt_Gingrich">
+Congressional Campaigns</a>
 </br>
-Voters in 12 key swing states and nationally are split between Barack Obama and Mitt Romney in their 2012 preferences, but pick Obama over Newt Gingrich. Gingrich and Romney are nearly tied again in national GOP nominee preferences.
-</div>
-
-</br>	
-<div class="news">
-<a href="http://www.bbc.co.uk/news/world-us-canada-16696347">
-Wealthy Romney reveals 14% taxes -BBC
-</a>
-</br>
-US Republican presidential candidate Mitt Romney expects to pay about $6.2m (�4m) in taxes on income of $42.5m in the last two years.
-That makes for a tax rate of 13.9% in 2010 and an expected rate of 15.4% in 2011, his campaign said.
+In 1974, Gingrich made his first bid for political office as the Republican candidate in Georgia's 6th congressional district, which stretched from the southern Atlanta suburbs to theAlabama state line. He lost to 20-year incumbent Democrat Jack Flynt by 2,770 votes. Gingrich ran up huge margins in the more suburban areas of the district, but was unable to overcome Flynt's lead in the more rural areas. Gingrich's relative success came as a considerable shock on two fronts. Flynt had never faced a serious challenger indeed, Gingrich was only the second Republican to even run against him. Additionally, 1974 was a disastrous year for Republicans nationally due to fallout from the Watergate scandal.
 </div>
 
 
-</br>	
+<br />
 <div class="news">
-<a href="http://www.latimes.com/news/politics/la-pn-still-down-in-florida-polls-gingrich-kicks-off-fivecity-dash-20120130,0,6269530.story?track=rss">
-Still down in Florida polls, Gingrich kicks off five-city dash -LA Times
-</a>
+<a href="http://en.wikipedia.org/wiki/Newt_Gingrich">
+Speaker of the House</a>
 </br>
-Kicking off a five-city dash around Florida a day before the state holds a critical primary, Newt Gingrich said on Monday that he was the only GOP candidate who could beat President Obama and slammed rival Mitt Romney as liberal...
+Legislation proposed by the 104th United States Congress included term limits for Congressional Representatives, tax cuts, welfare reform, and a balanced budget amendment, as well as independent auditing of the finances of the House of Representatives and elimination of non-essential services such as the House barbershop and shoe-shine concessions. Following Gingrich's first two years as House Speaker, the Republican majority was re-elected in the 1996 election, the first time Republicans had done so in 68 years, and the first time simultaneously with a Democratic president winning re-election.
 </div>
 
 </td>

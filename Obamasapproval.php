@@ -23,31 +23,38 @@ header("location:index.html");
 </br></br>
 		
 <div class="news">
-<a href="http://www.cnn.com/2012/01/30/politics/fl-insiders-survey/index.html">
-Florida Insiders Survey: 'Romney stepping up his game' -CNN
-</a>
+A good compromise, a good piece of legislation, is like a good sentence; or a good piece of music. Everybody can recognize it. They say, 'Huh. It works. It makes sense.'
 </br>
-As the Republican presidential campaign heads toward a critical showdown in the Florida primary, former Massachusetts Gov. Mitt Romney appears to have rebounded...
+<a href="http://www.brainyquote.com/quotes/authors/b/barack_obama.html">
+-Barack Obama
+</a>
 </div>
-
-</br>	
+</br>
 <div class="news">
-<a href="http://politics.blogs.foxnews.com/2012/01/30/final-data-dump-florida-early-voting-results">
-Final data dump: Florida early voting results -Fox News
-</a>
+After a century of striving, after a year of debate, after a historic vote, health care reform is no longer an unmet promise. It is the law of the land.
 </br>
-The Florida Republican Party has released the final numbers of early and absentee voting to be revealed ahead of Tuesday's primary vote.
+<a href="http://www.brainyquote.com/quotes/authors/b/barack_obama.html">
+-Barack Obama
+</a>
 </div>
+</br>
 
-
-</br>	
 <div class="news">
-<a href="http://www.nytimes.com/2012/01/29/us/politics/the-man-behind-gingrichs-money.html?_r=1&ref=politics">
-The Man Behind Gingrich&rsquo;s Money -The New York Times
-</a>
+Al Qaeda is still a threat. We cannot pretend somehow that because Barack Hussein Obama got elected as president, suddenly everything is going to be OK.
 </br>
-Sheldon Adelson, who presides over a global empire of casinos, hotels and convention centers and is by some estimates worth as much as $22 billion, is a large financial source for Newt Gingrich.
+<a href="http://www.brainyquote.com/quotes/authors/b/barack_obama.html">
+-Barack Obama
+</a>
 </div>
+</br>
+<div class="news">
+America and Islam are not exclusive and need not be in competition. Instead, they overlap, and share common principles of justice and progress, tolerance and the dignity of all human beings.
+</br>
+<a href="http://www.brainyquote.com/quotes/authors/b/barack_obama.html">
+-Barack Obama
+</a>
+</div>
+</br>
 
 </td>
 <td >
@@ -88,35 +95,44 @@ Sheldon Adelson, who presides over a global empire of casinos, hotels and conven
 </td>
 <td  class="side" width="20%">
 <h3>Biographical Background</h3>
-
+<div class="news">-from Wikipedia</div>
 <br />
 <div class="news">
-<a href="http://www.gallup.com/poll/152240/Romney-Ties-Obama-Swing-States-Gingrich-Trails.aspx">
-Romney Ties Obama in Swing States; Gingrich Trails -Gallup
-</a>
+<a href="http://en.wikipedia.org/wiki/Obama">
+Barack Obama</a>
 </br>
-Voters in 12 key swing states and nationally are split between Barack Obama and Mitt Romney in their 2012 preferences, but pick Obama over Newt Gingrich. Gingrich and Romney are nearly tied again in national GOP nominee preferences.
+Barack Hussein Obama II (born August 4, 1961) is the 44th and current President of the United States. He is the first African American to hold the office. Obama previously served as a United States Senator from Illinois, from January 2005 until he resigned following his victory in the 2008 presidential election.
 </div>
 
 </br>	
 <div class="news">
-<a href="http://www.bbc.co.uk/news/world-us-canada-16696347">
-Wealthy Romney reveals 14% taxes -BBC
+<a href="http://en.wikipedia.org/wiki/Obama">
+Chicago community organizer and Harvard Law School
 </a>
 </br>
-US Republican presidential candidate Mitt Romney expects to pay about $6.2m (&pound;4m) in taxes on income of $42.5m in the last two years.
-That makes for a tax rate of 13.9% in 2010 and an expected rate of 15.4% in 2011, his campaign said.
+Two years after graduating, Obama was hired in Chicago as director of the Developing Communities Project (DCP), a church-based community organization originally comprising eight Catholic parishes in Greater Roseland (Roseland, West Pullman and Riverdale) on Chicago's far South Side. He worked there as a community organizer from June 1985 to May 1988. During his three years as the DCP's director, its staff grew from one to thirteen. He helped set up a job training program, a college preparatory tutoring program, and a tenants' rights organization in Altgeld Gardens.
 </div>
 
 
 </br>	
 <div class="news">
-<a href="http://www.latimes.com/news/politics/la-pn-still-down-in-florida-polls-gingrich-kicks-off-fivecity-dash-20120130,0,6269530.story?track=rss">
-Still down in Florida polls, Gingrich kicks off five-city dash -LA Times
+<a href="http://en.wikipedia.org/wiki/Obama">
+University of Chicago Law School and civil rights attorney
 </a>
 </br>
-Kicking off a five-city dash around Florida a day before the state holds a critical primary, Newt Gingrich said on Monday that he was the only GOP candidate who could beat President Obama and slammed rival Mitt Romney as liberal...
+In 1991, Obama accepted a two-year position as Visiting Law and Government Fellow at the University of Chicago Law School to work on his first book. He then served as a professor at the University of Chicago Law School for twelve years as a Lecturer from 1992 to 1996, and as a Senior Lecturer from 1996 to 2004 teaching constitutional law.
 </div>
+
+
+</br>	
+<div class="news">
+<a href="http://en.wikipedia.org/wiki/Obama">
+State Senator: 1997-2004
+</a>
+</br>
+Obama was elected to the Illinois Senate in 1996, succeeding State Senator Alice Palmer as Senator from Illinois's 13th District, which at that time spanned Chicago South Side neighborhoods from Hyde Park Ð Kenwood south to South Shore and west to Chicago Lawn. Once elected, Obama gained bipartisan support for legislation reforming ethics and health care laws. He sponsored a law increasing tax credits for low-income workers, negotiated welfare reform, and promoted increased subsidies for childcare.
+</div>
+
 
 </td>
 </tr>

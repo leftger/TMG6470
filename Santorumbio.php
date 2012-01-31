@@ -22,31 +22,41 @@ header("location:index.html");
 </br></br>
 		
 <div class="news">
-<a href="http://www.cnn.com/2012/01/30/politics/fl-insiders-survey/index.html">
-Florida Insiders Survey: 'Romney stepping up his game' -CNN
-</a>
+Candidly, I believe most corporations actually don't mind big government.
 </br>
-As the Republican presidential campaign heads toward a critical showdown in the Florida primary, former Massachusetts Gov. Mitt Romney appears to have rebounded...
+<a href="http://www.brainyquote.com/quotes/authors/r/rick_santorum.html">
+-Rick Santorum
+</a>
 </div>
+</br>
 
-</br>	
 <div class="news">
-<a href="http://politics.blogs.foxnews.com/2012/01/30/final-data-dump-florida-early-voting-results">
-Final data dump: Florida early voting results -Fox News
-</a>
+Every society in the history of man has upheld the institution of marriage as a bond between a man and a woman. Why? Because society is based on one thing: that society is based on the future of the society. And that's what? Children. Monogamous relationships.
 </br>
-The Florida Republican Party has released the final numbers of early and absentee voting to be revealed ahead of Tuesday's primary vote.
+<a href="http://www.brainyquote.com/quotes/authors/r/rick_santorum.html">
+-Rick Santorum
+</a>
 </div>
+</br>
 
 
-</br>	
 <div class="news">
-<a href="http://www.nytimes.com/2012/01/29/us/politics/the-man-behind-gingrichs-money.html?_r=1&ref=politics">
-The Man Behind Gingrich&rsquo;s Money -The New York Times
-</a>
+I love it when the left and when the president say, 'Don't try to impose your values on us, you folks who hold your Bibles in your hand and cling to your guns.' They have values too. Our values are based on religion, based on life. Their values are based on a religion of self.
 </br>
-Sheldon Adelson, who presides over a global empire of casinos, hotels and convention centers and is by some estimates worth as much as $22 billion, is a large financial source for Newt Gingrich.
+<a href="http://www.brainyquote.com/quotes/authors/r/rick_santorum.html">
+-Rick Santorum
+</a>
 </div>
+</br>
+
+<div class="news">
+I mean the fact is that some of this information that we have found out that led to Usama bin Laden actually came from these enhanced interrogation technique
+</br>
+<a href="http://www.brainyquote.com/quotes/authors/r/rick_santorum.html">
+-Rick Santorum
+</a>
+</div>
+</br>
 
 </td>
 <td >
@@ -87,34 +97,44 @@ Sheldon Adelson, who presides over a global empire of casinos, hotels and conven
 </td>
 <td  class="side" width="20%">
 <h3>Biographical Background</h3>
+<div class="news">-from Wikipedia</div>
+<br />
+<div class="news">
+<a href="http://en.wikipedia.org/wiki/Rick_Santorum">
+Rick Santorum
+</a>
+</br>
+Richard John "Rick" Santorum (born May 10, 1958) is a U.S Republican Party politician. He was a lawyer before becoming the Representative for suburban Pittsburgh in 1991 and Senator for Pennsylvania from 1995, before losing his seat in 2006 and returning to law, public policy and the media. He is presently a candidate for the 2012 Republican Party presidential primaries.
+</div>
 
 <br />
 <div class="news">
-<a href="http://www.gallup.com/poll/152240/Romney-Ties-Obama-Swing-States-Gingrich-Trails.aspx">
-Romney Ties Obama in Swing States; Gingrich Trails -Gallup
+<a href="http://en.wikipedia.org/wiki/Rick_Santorum">
+Early Political Career
 </a>
 </br>
-Voters in 12 key swing states and nationally are split between Barack Obama and Mitt Romney in their 2012 preferences, but pick Obama over Newt Gingrich. Gingrich and Romney are nearly tied again in national GOP nominee preferences.
-</div>
-
-</br>	
-<div class="news">
-<a href="http://www.bbc.co.uk/news/world-us-canada-16696347">
-Wealthy Romney reveals 14% taxes -BBC
-</a>
-</br>
-US Republican presidential candidate Mitt Romney expects to pay about $6.2m (ï¿½4m) in taxes on income of $42.5m in the last two years.
-That makes for a tax rate of 13.9% in 2010 and an expected rate of 15.4% in 2011, his campaign said.
+Santorum first became actively involved in politics through volunteering for the late SenatorÊJohn Heinz, a Republican from Pennsylvania. While working on his law degree, Santorum was an administrative assistant to Republican state senator Doyle Corman also serving as director of the Pennsylvania Senate's local government committee from 1981 to 1984, then director of its transportation committee.
 </div>
 
 
-</br>	
+<br />
 <div class="news">
-<a href="http://www.latimes.com/news/politics/la-pn-still-down-in-florida-polls-gingrich-kicks-off-fivecity-dash-20120130,0,6269530.story?track=rss">
-Still down in Florida polls, Gingrich kicks off five-city dash -LA Times
+<a href="http://en.wikipedia.org/wiki/Rick_Santorum">
+Religious freedom and ideological diversity
 </a>
 </br>
-Kicking off a five-city dash around Florida a day before the state holds a critical primary, Newt Gingrich said on Monday that he was the only GOP candidate who could beat President Obama and slammed rival Mitt Romney as liberal...
+Santorum sponsored the Workplace Religious Freedom Act (WRFA) with U.S. Senator John Kerry (D-MA).
+In 2003, Santorum and fellow Republicans heard from Hillel, the Anti-Defamation League, and the Zionist Organization of America about combating anti-Semitism in American colleges. Santorum drafted language on "ideological diversity," which Race & Class magazine suggested was tantamount to "policing thought." Inside Higher Ed suggested that he was pandering to David Horowitz and had no deep-seated position on the legislation.
+</div>
+
+<br />
+<div class="news">
+<a href="http://en.wikipedia.org/wiki/Rick_Santorum">
+Party leadership
+</a>
+</br>
+In a 2002 PoliticsPA feature story designating politicians with yearbook superlatives, he was named the "Most Ambitious". 
+As chairman of the Senate Republican Conference, Santorum directed the communications operations of Senate Republicans and was a frequent party spokesperson. He was the youngest member of the Senate leadership and the first Pennsylvanian to hold such a prominent position since Senator Hugh Scott was Republican leader in the 1970s. In addition, Santorum served on the Senate Agriculture Committee; the Senate Committee on Banking, Housing and Urban Affairs; the Senate Special Committee on Aging; and the Senate Finance Committee, of which he was the chairman of the Subcommittee on Social Security and Family Policy.
 </div>
 
 </td>
