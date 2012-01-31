@@ -8,89 +8,19 @@ header("location:index.html");
 	<html>
 		<head>
 			<link rel = "stylesheet" type="text/css" href=" main.css" >
-	<style type="text/css">
-	#box {
-		background-color:#B3B3B3; width: 90%; margin-top: 100px; margin-left: auto; margin-right: auto; padding-top: 50px;
-	}
-	td.side {
-		background-color:#F0F0F0; border:#F4F5F5; border-style:solid; padding-left: 10px; padding-right: 10px;
-	}
-	#graphTop {
-		background-color:white; width: 60%; height: 275px;
-	}
-	#graphBot {
-		background-color:#B3B3B3; width: 60%;
-		margin-left: -10px;
-		margin-right: auto;
-		position: absolute;
-		top: 127%;
-	}
-	#graphBot img {
-		padding: 15px;
-		width: 74.5%;
-		filter:alpha(opacity=80);
-		position: absolute;
-	}
-	.news {
-		display:block;
-		background-color:#777777;
-		/*#000033*/
-		padding: 5px;
-		font-size: 11px;
-	}
-	.news a{
-		text-decoration: none;
-		font-family:"Verdana", Verdana, sans-serif;
-		color:white;
-		font-size: 15px;
-	}
-	.news a:hover {
-		color:red;
-	}
-	#barackswrap{position: absolute; top: 30%;}
-	#CommentFeed{width: 600px; height: 620px; background: white; z-index:4; position: absolute; top: 35%; right: 24.25%;}
-	
-	#prettycomment{z-index: 7; background-color: white; position: absolute; top: -391px; height: 70px; width: 600px;}
-	#prettycomment a{padding-left: 30px; text-align: center; text-decoration: none; color: black; font-size: 25px; font-family:Arial, Helvetica, sans-serif; font-weight:800; text-align: center;}
-	#prettycomment a:hover {opacity: .5;}
-	#Post_a_Comment{display:none}
-	#graybox{background: #eeeeed; width: 90%; height: 90%; margin: 15px;}
-	#prettycomment:hover #Post_a_Comment form{font-family: Arial, Helvetica, sans-serif; font-weight: 900; display: block; padding: 20px; padding-left: 35px; position: absolute; top: 0%; left: 0px; }
-	#prettycomment:hover #Post_a_Comment{border-style:solid; border-width:2px; border-color: #eeeedd; display: block; background-color:#FFFFF0; position: inherit; right: 0%; top: 105%; width: 100%; height: 300%; }
-	#reading_box{width: 200px; height: 300px; background: yellow; z-index:5; position: absolute; top: 10%; right: 0%;}
-	#reading_box{text-decoration: none; color: black; font-size: 17px; position: absolute; top: 30%;}
-	#reading_box a:hover {opacity: .5;}
-	
-	#comments{position: absolute; top: -270px; right: -565px; font-weight:800; background-color:#eeeeed; font-family: Arial, Helvetica, sans-serif; font-size: 16px; width: 500px; height: 520px; padding-left: 30px; padding-top: 15px;}
-	#graphbox{position: absolute; top: 50%; left: 0%;}
-	
-	h1{font-size: 22px;}
-	h3{position: absolute; top: 22%;}
-	table.cooltable{height: 1100px; }
-	</style>
+			<link rel = "stylesheet" type="text/css" href=" BioCSS.css" >
 </head>
 <div id="box">
 <table class="cooltable">
-<tr><td  class="side" width="28%">
+<tr><td  class="side" width="20%">
 <div id="minibox">
-<h3>President Barack Obama</h3>
+<h3>Ron Paul</h3>
 <div id="barackswrap">			
-<img src="BarackObama2005portrait.png">
+<img src="CandidatePics/Paul.jpeg">
 </div>
 <br />
 </br></br>
-
-
-
-</br>
-</br>
-</br>
-</br>
-</br>	
-</br>
-</br>
-</br>
-</br>		
+	
 <div class="news">
 <a href="http://www.cnn.com/2012/01/30/politics/fl-insiders-survey/index.html">
 Florida Insiders Survey: 'Romney stepping up his game' -CNN
@@ -139,7 +69,7 @@ Sheldon Adelson, who presides over a global empire of casinos, hotels and conven
 		</div>
 		</div>
 		<div id="comments">
-			<h1>Top Rated Comments for Barack Obama:</h1>
+			<h1>Top Rated Comments for Ron Paul:</h1>
 			<?php include("Paulcomments.php"); ?>
 		</div>
 	</div>
@@ -149,7 +79,7 @@ Sheldon Adelson, who presides over a global empire of casinos, hotels and conven
 <tr>
 <td>
 <div id="graphBot">
-<img src = "obamagraph.php">
+<img src = "CandidatePics/GOPcontenderhigh.jpg">
 </div>
 </td>
 </tr>
