@@ -69,7 +69,7 @@ And my point was one I think that you'd agree with, which is there's no room in 
 		<a href="">What do you have to share? Post a Comment!</a>
 		<div id="Post_a_Comment" class="comments">
 			<div id="graybox">
-			<form action="comment.php" method="post">
+			<form action="Gingrichsubmit.php" method="post">
 			<div><?php echo $_SESSION['myusername']. "'s"; ?> say: <br /> <textarea type="text" name="comment" rows="7" columns="40"></textarea></style></div>
 			<div id="submit_wrap">
 			<input type="submit" />
@@ -79,8 +79,10 @@ And my point was one I think that you'd agree with, which is there's no room in 
 		</div>
 		</div>
 		<div id="comments">
+
 			<h1>Top Rated Comments for Newt Gingrich:</h1>
 			<?php include("readcomments.php"); ?>
+
 		</div>
 	</div>
 </div>

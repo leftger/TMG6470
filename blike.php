@@ -21,7 +21,7 @@ mysql_query("UPDATE $tbl_name SET BadVote=$bvte WHERE ID = $id") or die('dead!')
 
 
 mysql_close($conn);
-echo "<meta http-equiv=\"Refresh\" content=0;url=\"Obamasapproval.php\">";
+echo "<meta http-equiv=\"Refresh\" content=0;url=\"$web\">";
 //header('Location: Obamasapproval.php');
 
 ?>
