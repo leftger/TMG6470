@@ -32,16 +32,21 @@
 						Username: <input type="text" name="myusername"> </input><br />
 						Password: <input type="password" name="mypassword"> </input><br />
 						<input type="submit" />
+						<?php
+						if(isset($_SESSION['myusername'])){
+					echo "</li id= \"logout_button\">
+						<INPUT TYPE=\"BUTTON\" VALUE=\"Logout\" ONCLICK=\"window.location.href='logout.php'\">";}
+					?>
 					</form>
 					</div>
 		</div>
-		<div id="line">
 		<div id="welcome">
 			<?php
 			if (isset($_SESSION['myusername'])){echo "Welcome, " . $_SESSION['myusername'] . "";}
 			else{echo "Please log in :)";}
 			?>
 		</div>
+		<div id="line">
 		<img src="redline.png" alt="line" width="100%" height="4px">
 		</div>
 		<div id="navigation_bar" >
@@ -50,7 +55,7 @@
 		</div>
 			<ul class="nav_bar">
 				<li id="home" class="nav_bar">
-			 		<a href="index.html">Home</a>
+			 		<a href="index.php">Home</a>
 			 		
 			 	</li>
 			 	<li id="statistics" class="nav_bar">
@@ -111,3 +116,5 @@
 			</ul>
 		</div>
 		</div>
+		</body>
+</html>
