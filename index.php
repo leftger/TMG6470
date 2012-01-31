@@ -142,7 +142,7 @@ session_start();
 			
 			<li>
 				<a href="http://www.google.com">
-  				<img src="CandidatePics/rick-perry.jpg" alt="Rick Perry"  />
+  				<img src="CandidatePics/rick-perrymod3.jpg" alt="Rick Perry"  />
   				</a>
   				<div class="desc">Rick Perry</div>
   				
