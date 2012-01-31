@@ -73,25 +73,25 @@ session_start();
 			 		</ul>
 			 	</li>
 			 	<li id="issues" class="nav_bar">
-			 		<a href="">Issues</a>
+			 		<a href="">Link to Social media</a>
 			 		
 			 		<ul>
-			 			<li><a href="http://en.wikipedia.org/wiki/Economy" class="issues_bar">Economy</a></li>
-			 			<li><a href="http://en.wikipedia.org/wiki/The_War" class="issues_bar">The War</a></li>
-			 			<li><a href="http://en.wikipedia.org/wiki/Social_Issues" class="issues_bar">Social Issues</a></li>
-			 			<li><a href="http://en.wikipedia.org/wiki/Abortion" class="issues_bar">Abortion</a></li>
-			 			<li><a href="http://en.wikipedia.org/wiki/Scandals" class="issues_bar">Scandals</a></li>
+			 			<li><a href="candidate.php?id=404587" class="issues_bar">Newt Gingrich</a></li>
+			 			<li><a href="candidate.php?id=408649" class="issues_bar">Rick Perry</a></li>
+			 			<li><a href="candidate.php?id=400311" class="issues_bar">Ron Paul</a></li>
+			 			<li><a href="candidate.php?id=300085"class="issues_bar">Rick Santorum</a></li>
+			 			<li><a href="candidate.php?id=400629" class="issues_bar">Barack Obama</a></li>
 			 		</ul>
 			 	</li>
 			 	<li id="candidates" class="nav_bar">
 			 		<a href="">Candidates</a>
 			 		
 			 		<ul>
-			 			<li><a href="http://en.wikipedia.org/wiki/Barack_Obama" class="candidates_bar">Barack Obama</a></li>
-			 			<li><a href="http://en.wikipedia.org/wiki/Newt_Gingrich" class="candidates_bar">Newt Gingrich</a></li>
-			 			<li><a href="http://en.wikipedia.org/wiki/Ron_paul" class="candidates_bar">Ron Paul</a></li>
-			 			<li><a href="http://en.wikipedia.org/wiki/Rick_Santorum" class="candidates_bar">Rick Santorum</a></li>
-			 			<li><a href="http://en.wikipedia.org/wiki/Mitt_Romney" class="candidates_bar">Mitt Romney</a></li>
+			 			<li><a href="Obamasapproval.php" class="candidates_bar">Barack Obama</a></li>
+			 			<li><a href="Gingrichbio.php" class="candidates_bar">Newt Gingrich</a></li>
+			 			<li><a href="paulbio.php" class="candidates_bar">Ron Paul</a></li>
+			 			<li><a href="Santorumbio.php" class="candidates_bar">Rick Santorum</a></li>
+			 			<li><a href="Romneybio.php" class="candidates_bar">Mitt Romney</a></li>
 			 		</ul>
 			 	</ul>
 			 	<ul class="nav_right">
@@ -159,7 +159,6 @@ session_start();
 		<div id="accordian_box">
 		<ul id="accordion">
 			<li>
-				<a href="candidate.php?id=404587">
 				<a href="Gingrichbio.php">
   				<img src="CandidatePics/gingrich400.jpg" alt="Newt Gingrich"   />
   				</a>
@@ -168,8 +167,6 @@ session_start();
 			
 			<li>
 
-
-				<a href="candidate.php?id=408649">
   				<img src="CandidatePics/rick-perry.jpg" alt="Rick Perry"  />
 
   				</a>
@@ -177,15 +174,13 @@ session_start();
   				
 			</li>
 			<li>
-				<a href="candidate.php?id=400311">
 				<a href="paulbio.php">
  			 	<img src="CandidatePics/RonPaul.jpg" alt="Ron Paul"   />
  		 		</a>
  		 		<div class="desc">Ron Paul</div>	
 			</li>
 			<li>
-				<a href="candidate.php?id=300085">
-				<a href="Santorumbio.php"></a>
+				<a href="Santorumbio.php">
   				<img src="CandidatePics/Santorum400.jpg" alt="Rick Santorum"  />
   				</a>
   				<div class="desc">Rick Santorum</div>	
@@ -197,7 +192,6 @@ session_start();
 				<div class="desc">Mitt Romney</div>	
 			</li>
 			<li>
-				<a href="candidate.php?id=400629">
 				<a href="Obamasapproval.php">
   				<img src="CandidatePics/Obama.jpg" alt="Barack Obama" /> <!--width=400px-->
   				</a>

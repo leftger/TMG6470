@@ -65,9 +65,9 @@ $morerows=true;
 	$bvte=$fullsort[0][4]+1;?>
 <td> <font color="#1C62B9"><?echo $fullsort[0][0]?><? echo "-"; ?></td>
 <td ><font color="#090"><?echo $fullsort[0][2]?></td>
-<td ><div id="thumb"><div id="thumbwrap"><div id="yesbox"><img src= "likeicon.png" alt="like" width="40px" height="40px"></div><?echo "<INPUT TYPE=\"IMAGE\" SRC=\"thumb.png\"  width=\"30px\" height=\"25px\" ONCLICK= window.location.href=\"like.php?id=$id&vote=$vte\">";?> </td></div></div>
+<td ><div id="thumb"><div id="thumbwrap"><div id="yesbox"><img src= "likeicon.png" alt="like" width="40px" height="40px"></div><?echo "<INPUT TYPE=\"IMAGE\" SRC=\"thumb.png\"  width=\"30px\" height=\"25px\" ONCLICK= window.location.href=\"Gingrichlike.php?id=$id&vote=$vte\">";?> </td></div></div>
 <td ><font color=red><?echo $fullsort[0][4]?></td>
-<td><div id="thumb"><div id="thumbwrap"><div id="yesbox"><img src= "dislike.png" alt="like" width="40px" height="40px"></div><?echo "<INPUT TYPE=\"IMAGE\" SRC=\"badthumb.png\"  width=\"30px\" height=\"25px\" ONCLICK= window.location.href=\"blike.php?id=$id&vote=$bvte\">";?> </td></div></div>
+<td><div id="thumb"><div id="thumbwrap"><div id="yesbox"><img src= "dislike.png" alt="like" width="40px" height="40px"></div><?echo "<INPUT TYPE=\"IMAGE\" SRC=\"badthumb.png\"  width=\"30px\" height=\"25px\" ONCLICK= window.location.href=\"Gingrichblike.php?id=$id&vote=$bvte\">";?> </td></div></div>
 </tr>
 <tr>
 <td><? echo "'".$fullsort[0][1] . "'"; ?> </td>
@@ -78,10 +78,10 @@ $morerows=true;
 	$bvte2=$fullsort[1][4]+1;?>
 <td><br /><font color="#1C62B9"><?echo $fullsort[1][0]."-"; ?></td>
 <td><font color="#090"><?echo $fullsort[1][2]?></td>
-<td ><div id="thumb"><div id="thumbwrap"><div id="yesbox"><img src= "likeicon.png" alt="like" width="40px" height="40px"></div><?echo "<INPUT TYPE=\"IMAGE\" SRC=\"thumb.png\"  width=\"30px\" height=\"25px\" ONCLICK= window.location.href=\"like.php?id=$id2&vote=$vte2\">";?> </td></div></div>
+<td ><div id="thumb"><div id="thumbwrap"><div id="yesbox"><img src= "likeicon.png" alt="like" width="40px" height="40px"></div><?echo "<INPUT TYPE=\"IMAGE\" SRC=\"thumb.png\"  width=\"30px\" height=\"25px\" ONCLICK= window.location.href=\"Gingrichlike.php?id=$id2&vote=$vte2\">";?> </td></div></div>
 
 <td><font color=red><?echo $fullsort[1][4]?></td>
-<td><div id="thumb"><div id="thumbwrap"><div id="yesbox"><img src= "dislike.png" alt="like" width="40px" height="40px"></div><?echo "<INPUT TYPE=\"IMAGE\" SRC=\"badthumb.png\"  width=\"30px\" height=\"25px\" ONCLICK= window.location.href=\"blike.php?id=$id2&vote=$bvte2\">";?> </td></div></div>
+<td><div id="thumb"><div id="thumbwrap"><div id="yesbox"><img src= "dislike.png" alt="like" width="40px" height="40px"></div><?echo "<INPUT TYPE=\"IMAGE\" SRC=\"badthumb.png\"  width=\"30px\" height=\"25px\" ONCLICK= window.location.href=\"Gingrichblike.php?id=$id2&vote=$bvte2\">";?> </td></div></div>
 </tr>
 <tr>
 <td> <? echo "'".$fullsort[1][1] . "'"; ?></td>
@@ -92,10 +92,10 @@ $morerows=true;
 	$bvte3=$fullsort[2][4]+1;?>
 <td><br /><font color="#1C62B9"><?echo $fullsort[2][0]."-"; ?></td>
 <td><font color="#090"><?echo $fullsort[2][2]?></td>
-<td ><div id="thumb"><div id="thumbwrap"><div id="yesbox"><img src= "likeicon.png" alt="like" width="40px" height="40px"></div><?echo "<INPUT TYPE=\"IMAGE\" SRC=\"thumb.png\"  width=\"30px\" height=\"25px\" ONCLICK= window.location.href=\"like.php?id=$id3&vote=$vte3\">";?> </td></div></div>
+<td ><div id="thumb"><div id="thumbwrap"><div id="yesbox"><img src= "likeicon.png" alt="like" width="40px" height="40px"></div><?echo "<INPUT TYPE=\"IMAGE\" SRC=\"thumb.png\"  width=\"30px\" height=\"25px\" ONCLICK= window.location.href=\"Gingrichlike.php?id=$id3&vote=$vte3\">";?> </td></div></div>
 
 <td><font color=red><?echo $fullsort[2][4]?></td>
-<td><div id="thumb"><div id="thumbwrap"><div id="yesbox"><img src= "dislike.png" alt="like" width="40px" height="40px"></div><?echo "<INPUT TYPE=\"IMAGE\" SRC=\"badthumb.png\"  width=\"30px\" height=\"25px\" ONCLICK= window.location.href=\"blike.php?id=$id3&vote=$bvte3\">";?> </td></div></div>
+<td><div id="thumb"><div id="thumbwrap"><div id="yesbox"><img src= "dislike.png" alt="like" width="40px" height="40px"></div><?echo "<INPUT TYPE=\"IMAGE\" SRC=\"badthumb.png\"  width=\"30px\" height=\"25px\" ONCLICK= window.location.href=\"Gingrichblike.php?id=$id3&vote=$bvte3\">";?> </td></div></div>
 
 </tr>
 <tr>
