@@ -12,12 +12,35 @@
 			margin-right:auto;
 			margin-top: 200px;
 			padding: 50px;
+			border-radius: 5px;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
 		}
+		#sign img {
+			margin-top: -50px;
+			z-index: -1;
+			opacity:0.2;
+			filter:alpha(opacity=20);
+			margin-left: 250px;
+		}
+		#sign form {
+			margin-top: -360px;
+			font-family: Impact,Charcoal, sans-serif;
+			display:block;
+			background-color:#777777;
+			padding: 20px;
+			border-radius: 5px;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border:1px solid red;
+		}
+		
 	</style>
 	</head>
 <body>
 <?php include("navbar2.php"); ?>
 <div id="sign">
+<img src="logotransparent.png">
 <form action="register.php" method="post">
 	Username: <input type="text" name="myusername"></input><br />
 	Password: <input type="password" name="mypassword"></input><br />
