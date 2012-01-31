@@ -38,6 +38,23 @@
 	.news a:hover {
 		color:red;
 	}
+	#foot {
+		display:block;
+		position:absolute;
+		bottom: -60%;
+		text-align:center;
+		margin-left:12%;
+		margin-right:auto;
+		font-family: Impact, Charcoal, sans-serif;
+		background-color:#D3D3D3;		
+		padding: 5px;
+		opacity:0.4;
+		filter:alpha(opacity=40);
+	}
+	#foot txt {
+		opacity:1;
+		filter:alpha(opacity=100);
+	}
 	</style>
 </head>
 <body>
@@ -123,6 +140,12 @@ Sheldon Adelson, who presides over a global empire of casinos, hotels and conven
 <div id="graphBot">
 <img src="CandidatePics/capitol_hill_lg.jpg" alt="Capitol Hill nataliaallen.wordpress.com">
 </div>
+<div id="foot">
+Nameless Website Gerzain Rosas, Michael DuPlessis, Thane Miller</br></br>
+Developed for MIT's IAP 2012 6.470 Web Development Competition.</br></br>
+Thank You to govtrack.us, Gallup, YouTube, Facebook, PhpGraphLib
+</div>
+
 </td>
 </tr>
 </table>
