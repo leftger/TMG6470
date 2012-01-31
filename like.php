@@ -1,4 +1,11 @@
 <?php
+include("navbar.php");
+?>
+<html>
+		<div id="page">
+		<div id="barackswrap">			
+		<img src="BarackObama2005portrait.png">
+<?
 include("readcomments.php");
 $host="18.194.1.88:3306"; 
 $username="TMG6470";
@@ -14,6 +21,10 @@ mysql_query("UPDATE Comments SET Vote=$vote WHERE ID = $id") or die('dead!');
 
 
 mysql_close($conn);
-header('Location: Obamasapproval.php');
+echo "<meta http-equiv=\"Refresh\" content=0;url=\"Obamasapproval.php\">";
+//header('Location: Obamasapproval.php');
 
 ?>
+		</div>
+		</div>
+</html>
