@@ -1,0 +1,18 @@
+body{font-family: Helvetica,Arial,Helvetica,sans-serif; font-size: 15px; background: #000033;}
+
+#bigbox{ background: #EEEEEE; padding-top:100px; position: relative; top: 125px; right: -2%; padding: 3px; width: 95%; height: 350%; box-shadow: 3px 3px 5px black; }
+#twitterbox{font-family: Helvetica,Arial,Helvetica,sans-serif; width:300px; padding: 10%; background-image: url('twitterbackground.png'); position: relative; top: -0%; box-shadow: 3px 3px 5px black;}
+#youtubebox{font-family: arial,sans-serif; padding: 10%; background-color: #B8B8B8; width:300px;position: relative; top: -50%; box-shadow: 3px 3px 5px black;}
+#facebookbox{font-family: lucida,tahoma,verdana,arial,sans-serif; padding: 10%; background:#133782; width: 300px; box-shadow: 3px 3px 5px black;}
+	
+#seperatinline{width: 325px; height: 2px; background: black;}
+#seperatnline{width: 350px; height: 2px; background: white;}
+#seperationline{width: 300px; height: 2px; background: white;}
+td{padding: 20px; width:400px;}
+
+#facewrap{background: #eeeeee; width: 70%; padding: 10px;}	
+
+
+
+
+

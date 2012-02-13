@@ -1,0 +1,72 @@
+<html>
+	<head>
+	<link rel = "stylesheet" type="text/css" href=" main.css" >
+	</head>
+	<body>
+		<div id="large_box">
+		<div id="header">
+		<div id="smallheader">
+		<div id="line">
+		<div id="logo_box">
+		<img src= "logotransparent.png" alt="donkey V Elephant" width="300px" height="215px" >
+		</div>
+		
+		<img src="blackline.png" alt="line" width="1110px" height="4px">
+		</div>
+		<div id="navigation_bar" >
+			<ul>
+				<li id="home" class="nav_bar">
+			 		<a href="index.html">Home</a>
+			 		|
+			 	</li>
+			 	<li id="statistics" class="nav_bar">
+			 		<a href="http://en.wikipedia.org/wiki/Statistics">Statistics</a>
+			 			 |
+			 		<ul>
+			 			
+			 			<li><a href="http://en.wikipedia.org/wiki/Timeline" class="Stats_bar">Timeline</a></li>
+			 			<li><a href="http://en.wikipedia.org/wiki/Newt_Gingrich" class="Stats_bar">Districts leading</a></li>
+			 			<li><a href="http://en.wikipedia.org/wiki/Ron_paul" class="Stats_bar">Bills created</a></li>
+			 			<li><a href="http://en.wikipedia.org/wiki/Rick_Santorum" class="Stats_bar">Something else</a></li>
+			 			<li><a href="http://en.wikipedia.org/wiki/Mitt_Romney" class="Stats_bar">Something else</a></li>
+			 		</ul>
+			 	</li>
+			 	<li id="issues" class="nav_bar">
+			 		<a href="">Issues</a>
+			 		|
+			 		<ul>
+			 			<li><a href="http://en.wikipedia.org/wiki/Economy" class="issues_bar">Economy</a></li>
+			 			<li><a href="http://en.wikipedia.org/wiki/The_War" class="issues_bar">The War</a></li>
+			 			<li><a href="http://en.wikipedia.org/wiki/Social_Issues" class="issues_bar">Social Issues</a></li>
+			 			<li><a href="http://en.wikipedia.org/wiki/Abortion" class="issues_bar">Abortion</a></li>
+			 			<li><a href="http://en.wikipedia.org/wiki/Scandals" class="issues_bar">Scandals</a></li>
+			 		</ul>
+			 	</li>
+			 	<li id="candidates" class="nav_bar">
+			 		<a href="">Candidates</a>
+			 		|
+			 		<ul>
+			 			<li><a href="Obamasapproval.php" class="candidates_bar">Barack Obama</a></li>
+			 			<li><a href="http://en.wikipedia.org/wiki/Newt_Gingrich" class="candidates_bar">Newt Gingrich</a></li>
+			 			<li><a href="http://en.wikipedia.org/wiki/Ron_paul" class="candidates_bar">Ron Paul</a></li>
+			 			<li><a href="http://en.wikipedia.org/wiki/Rick_Santorum" class="candidates_bar">Rick Santorum</a></li>
+			 			<li><a href="Romney.html" class="candidates_bar">Mitt Romney</a></li>
+			 		</ul>
+			 	</li>
+			 	<li id="login" class="nav_bar>">
+			 		
+			 		<a href="">Login</a>
+			 		<div id='login_box'>
+			 		<form action="main.php" method="post">
+						Username: <input type="text" name="username"> </input><br />
+						Password: <input type="password" name="password"> </input><br />
+						<input type="submit"/>
+					</form>
+					</div>
+			 	</li>
+			</ul>
+		</div>
+		</div>
+<!--<?php include("obamagraph.php"); ?>-->
+</body>
+</html>
